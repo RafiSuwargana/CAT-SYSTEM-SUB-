@@ -1,0 +1,1246 @@
+2025-07-15 14:56:21,387 - INFO - ==================================================
+2025-07-15 14:56:21,387 - INFO - Starting CAT Flask API Server v1.0.0 (Fixed)
+2025-07-15 14:56:21,387 - INFO - Server will run at: http://127.0.0.1:5000
+2025-07-15 14:56:21,387 - INFO - Item bank loaded: 160 items
+2025-07-15 14:56:21,387 - INFO - Available endpoints:
+2025-07-15 14:56:21,387 - INFO -   GET  /health - Health check
+2025-07-15 14:56:21,387 - INFO -   POST /api/estimate-theta - Estimate theta using EAP
+2025-07-15 14:56:21,387 - INFO -   POST /api/select-item - Select next item using EFI
+2025-07-15 14:56:21,387 - INFO -   POST /api/calculate-score - Calculate score from theta
+2025-07-15 14:56:21,387 - INFO -   POST /api/stopping-criteria - Check stopping criteria
+2025-07-15 14:56:21,395 - INFO -   GET  /api/item-bank - Get item bank information
+2025-07-15 14:56:21,395 - INFO -   POST /api/test-calculation - Test calculation endpoint
+2025-07-15 14:56:21,395 - INFO - ==================================================
+2025-07-15 14:56:21,436 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-15 14:56:21,436 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-15 14:56:21,452 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-15 14:56:22,090 - INFO - ==================================================
+2025-07-15 14:56:22,090 - INFO - Starting CAT Flask API Server v1.0.0 (Fixed)
+2025-07-15 14:56:22,090 - INFO - Server will run at: http://127.0.0.1:5000
+2025-07-15 14:56:22,090 - INFO - Item bank loaded: 160 items
+2025-07-15 14:56:22,090 - INFO - Available endpoints:
+2025-07-15 14:56:22,090 - INFO -   GET  /health - Health check
+2025-07-15 14:56:22,090 - INFO -   POST /api/estimate-theta - Estimate theta using EAP
+2025-07-15 14:56:22,090 - INFO -   POST /api/select-item - Select next item using EFI
+2025-07-15 14:56:22,090 - INFO -   POST /api/calculate-score - Calculate score from theta
+2025-07-15 14:56:22,090 - INFO -   POST /api/stopping-criteria - Check stopping criteria
+2025-07-15 14:56:22,090 - INFO -   GET  /api/item-bank - Get item bank information
+2025-07-15 14:56:22,090 - INFO -   POST /api/test-calculation - Test calculation endpoint
+2025-07-15 14:56:22,090 - INFO - ==================================================
+2025-07-15 14:56:22,098 - WARNING -  * Debugger is active!
+2025-07-15 14:56:22,106 - INFO -  * Debugger PIN: 112-196-890
+2025-07-15 14:56:25,000 - INFO - 127.0.0.1 - - [15/Jul/2025 14:56:25] "GET /health HTTP/1.1" 200 -
+2025-07-15 14:56:28,277 - INFO - 127.0.0.1 - - [15/Jul/2025 14:56:28] "GET /health HTTP/1.1" 200 -
+2025-07-15 14:56:28,494 - INFO - 127.0.0.1 - - [15/Jul/2025 14:56:28] "GET /health HTTP/1.1" 200 -
+2025-07-15 14:56:28,960 - INFO - 127.0.0.1 - - [15/Jul/2025 14:56:28] "GET /health HTTP/1.1" 200 -
+2025-07-15 14:56:29,177 - INFO - 127.0.0.1 - - [15/Jul/2025 14:56:29] "GET /health HTTP/1.1" 200 -
+2025-07-15 14:56:30,606 - INFO - 127.0.0.1 - - [15/Jul/2025 14:56:30] "GET /health HTTP/1.1" 200 -
+2025-07-15 14:56:30,870 - INFO - 127.0.0.1 - - [15/Jul/2025 14:56:30] "[33mPOST /next-item HTTP/1.1[0m" 404 -
+2025-07-15 14:56:59,126 - INFO - 127.0.0.1 - - [15/Jul/2025 14:56:59] "GET /health HTTP/1.1" 200 -
+2025-07-15 14:56:59,342 - INFO - 127.0.0.1 - - [15/Jul/2025 14:56:59] "GET /health HTTP/1.1" 200 -
+2025-07-15 14:57:28,620 - INFO - 127.0.0.1 - - [15/Jul/2025 14:57:28] "GET /health HTTP/1.1" 200 -
+2025-07-15 14:57:28,839 - INFO - 127.0.0.1 - - [15/Jul/2025 14:57:28] "GET /health HTTP/1.1" 200 -
+2025-07-15 14:57:58,936 - INFO - 127.0.0.1 - - [15/Jul/2025 14:57:58] "GET /health HTTP/1.1" 200 -
+2025-07-15 14:57:59,152 - INFO - 127.0.0.1 - - [15/Jul/2025 14:57:59] "GET /health HTTP/1.1" 200 -
+2025-07-15 14:58:28,624 - INFO - 127.0.0.1 - - [15/Jul/2025 14:58:28] "GET /health HTTP/1.1" 200 -
+2025-07-15 14:58:28,836 - INFO - 127.0.0.1 - - [15/Jul/2025 14:58:28] "GET /health HTTP/1.1" 200 -
+2025-07-15 14:58:59,036 - INFO - 127.0.0.1 - - [15/Jul/2025 14:58:59] "GET /health HTTP/1.1" 200 -
+2025-07-15 14:58:59,255 - INFO - 127.0.0.1 - - [15/Jul/2025 14:58:59] "GET /health HTTP/1.1" 200 -
+2025-07-15 14:59:28,616 - INFO - 127.0.0.1 - - [15/Jul/2025 14:59:28] "GET /health HTTP/1.1" 200 -
+2025-07-15 14:59:28,841 - INFO - 127.0.0.1 - - [15/Jul/2025 14:59:28] "GET /health HTTP/1.1" 200 -
+2025-07-15 14:59:58,906 - INFO - 127.0.0.1 - - [15/Jul/2025 14:59:58] "GET /health HTTP/1.1" 200 -
+2025-07-15 14:59:59,141 - INFO - 127.0.0.1 - - [15/Jul/2025 14:59:59] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:00:01,805 - INFO -  * Detected change in 'C:\\Users\\user\\Documents\\cat_flask\\cat_api.py', reloading
+2025-07-15 15:00:01,845 - INFO -  * Detected change in 'C:\\Users\\user\\Documents\\cat_flask\\cat_api.py', reloading
+2025-07-15 15:00:01,845 - INFO -  * Detected change in 'C:\\Users\\user\\Documents\\cat_flask\\cat_api.py', reloading
+2025-07-15 15:00:01,999 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-15 15:00:02,902 - INFO - ==================================================
+2025-07-15 15:00:02,902 - INFO - Starting CAT Flask API Server v1.0.0 (Fixed)
+2025-07-15 15:00:02,902 - INFO - Server will run at: http://127.0.0.1:5000
+2025-07-15 15:00:02,902 - INFO - Item bank loaded: 160 items
+2025-07-15 15:00:02,902 - INFO - Available endpoints:
+2025-07-15 15:00:02,902 - INFO -   GET  /health - Health check
+2025-07-15 15:00:02,902 - INFO -   POST /api/estimate-theta - Estimate theta using EAP
+2025-07-15 15:00:02,902 - INFO -   POST /api/select-item - Select next item using EFI
+2025-07-15 15:00:02,902 - INFO -   POST /api/calculate-score - Calculate score from theta
+2025-07-15 15:00:02,902 - INFO -   POST /api/stopping-criteria - Check stopping criteria
+2025-07-15 15:00:02,902 - INFO -   GET  /api/item-bank - Get item bank information
+2025-07-15 15:00:02,902 - INFO -   POST /api/test-calculation - Test calculation endpoint
+2025-07-15 15:00:02,902 - INFO - ==================================================
+2025-07-15 15:00:02,910 - WARNING -  * Debugger is active!
+2025-07-15 15:00:02,918 - INFO -  * Debugger PIN: 112-196-890
+2025-07-15 15:00:29,335 - INFO -  * Detected change in 'C:\\Users\\user\\Documents\\cat_flask\\cat_api.py', reloading
+2025-07-15 15:00:29,373 - INFO -  * Detected change in 'C:\\Users\\user\\Documents\\cat_flask\\cat_api.py', reloading
+2025-07-15 15:00:29,373 - INFO -  * Detected change in 'C:\\Users\\user\\Documents\\cat_flask\\cat_api.py', reloading
+2025-07-15 15:00:30,113 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-15 15:00:31,006 - INFO - ==================================================
+2025-07-15 15:00:31,006 - INFO - Starting CAT Flask API Server v1.0.0 (Fixed)
+2025-07-15 15:00:31,006 - INFO - Server will run at: http://127.0.0.1:5000
+2025-07-15 15:00:31,006 - INFO - Item bank loaded: 160 items
+2025-07-15 15:00:31,006 - INFO - Available endpoints:
+2025-07-15 15:00:31,006 - INFO -   GET  /health - Health check
+2025-07-15 15:00:31,006 - INFO -   POST /api/estimate-theta - Estimate theta using EAP
+2025-07-15 15:00:31,006 - INFO -   POST /api/select-item - Select next item using EFI
+2025-07-15 15:00:31,006 - INFO -   POST /api/calculate-score - Calculate score from theta
+2025-07-15 15:00:31,006 - INFO -   POST /api/stopping-criteria - Check stopping criteria
+2025-07-15 15:00:31,006 - INFO -   GET  /api/item-bank - Get item bank information
+2025-07-15 15:00:31,006 - INFO -   POST /api/test-calculation - Test calculation endpoint
+2025-07-15 15:00:31,006 - INFO - ==================================================
+2025-07-15 15:00:31,022 - WARNING -  * Debugger is active!
+2025-07-15 15:00:31,022 - INFO -  * Debugger PIN: 112-196-890
+2025-07-15 15:00:42,778 - INFO -  * Detected change in 'C:\\Users\\user\\Documents\\cat_flask\\cat_api.py', reloading
+2025-07-15 15:00:42,778 - INFO -  * Detected change in 'C:\\Users\\user\\Documents\\cat_flask\\cat_api.py', reloading
+2025-07-15 15:00:43,242 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-15 15:00:44,020 - INFO - ==================================================
+2025-07-15 15:00:44,020 - INFO - Starting CAT Flask API Server v1.0.0 (Fixed)
+2025-07-15 15:00:44,020 - INFO - Server will run at: http://127.0.0.1:5000
+2025-07-15 15:00:44,020 - INFO - Item bank loaded: 160 items
+2025-07-15 15:00:44,020 - INFO - Available endpoints:
+2025-07-15 15:00:44,020 - INFO -   GET  /health - Health check
+2025-07-15 15:00:44,020 - INFO -   POST /api/estimate-theta - Estimate theta using EAP
+2025-07-15 15:00:44,020 - INFO -   POST /api/select-item - Select next item using EFI
+2025-07-15 15:00:44,020 - INFO -   POST /api/calculate-score - Calculate score from theta
+2025-07-15 15:00:44,020 - INFO -   POST /api/stopping-criteria - Check stopping criteria
+2025-07-15 15:00:44,020 - INFO -   GET  /api/item-bank - Get item bank information
+2025-07-15 15:00:44,020 - INFO -   POST /api/test-calculation - Test calculation endpoint
+2025-07-15 15:00:44,020 - INFO -   POST /next-item - Legacy next item endpoint
+2025-07-15 15:00:44,020 - INFO -   POST /estimate-theta - Legacy theta estimation endpoint
+2025-07-15 15:00:44,020 - INFO - ==================================================
+2025-07-15 15:00:44,041 - WARNING -  * Debugger is active!
+2025-07-15 15:00:44,041 - INFO -  * Debugger PIN: 112-196-890
+2025-07-15 15:00:59,929 - INFO - 127.0.0.1 - - [15/Jul/2025 15:00:59] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:01:00,151 - INFO - 127.0.0.1 - - [15/Jul/2025 15:01:00] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:02:02,055 - INFO - ==================================================
+2025-07-15 15:02:02,055 - INFO - Starting CAT Flask API Server v1.0.0 (Fixed)
+2025-07-15 15:02:02,055 - INFO - Server will run at: http://127.0.0.1:5000
+2025-07-15 15:02:02,055 - INFO - Item bank loaded: 160 items
+2025-07-15 15:02:02,055 - INFO - Available endpoints:
+2025-07-15 15:02:02,055 - INFO -   GET  /health - Health check
+2025-07-15 15:02:02,055 - INFO -   POST /api/estimate-theta - Estimate theta using EAP
+2025-07-15 15:02:02,055 - INFO -   POST /api/select-item - Select next item using EFI
+2025-07-15 15:02:02,055 - INFO -   POST /api/calculate-score - Calculate score from theta
+2025-07-15 15:02:02,055 - INFO -   POST /api/stopping-criteria - Check stopping criteria
+2025-07-15 15:02:02,055 - INFO -   GET  /api/item-bank - Get item bank information
+2025-07-15 15:02:02,055 - INFO -   POST /api/test-calculation - Test calculation endpoint
+2025-07-15 15:02:02,055 - INFO -   POST /next-item - Legacy next item endpoint
+2025-07-15 15:02:02,055 - INFO -   POST /estimate-theta - Legacy theta estimation endpoint
+2025-07-15 15:02:02,055 - INFO - ==================================================
+2025-07-15 15:02:02,088 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-15 15:02:02,089 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-15 15:02:02,096 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-15 15:02:02,663 - INFO - ==================================================
+2025-07-15 15:02:02,663 - INFO - Starting CAT Flask API Server v1.0.0 (Fixed)
+2025-07-15 15:02:02,663 - INFO - Server will run at: http://127.0.0.1:5000
+2025-07-15 15:02:02,663 - INFO - Item bank loaded: 160 items
+2025-07-15 15:02:02,663 - INFO - Available endpoints:
+2025-07-15 15:02:02,663 - INFO -   GET  /health - Health check
+2025-07-15 15:02:02,663 - INFO -   POST /api/estimate-theta - Estimate theta using EAP
+2025-07-15 15:02:02,663 - INFO -   POST /api/select-item - Select next item using EFI
+2025-07-15 15:02:02,663 - INFO -   POST /api/calculate-score - Calculate score from theta
+2025-07-15 15:02:02,664 - INFO -   POST /api/stopping-criteria - Check stopping criteria
+2025-07-15 15:02:02,664 - INFO -   GET  /api/item-bank - Get item bank information
+2025-07-15 15:02:02,664 - INFO -   POST /api/test-calculation - Test calculation endpoint
+2025-07-15 15:02:02,664 - INFO -   POST /next-item - Legacy next item endpoint
+2025-07-15 15:02:02,664 - INFO -   POST /estimate-theta - Legacy theta estimation endpoint
+2025-07-15 15:02:02,664 - INFO - ==================================================
+2025-07-15 15:02:02,678 - WARNING -  * Debugger is active!
+2025-07-15 15:02:02,683 - INFO -  * Debugger PIN: 112-196-890
+2025-07-15 15:03:18,224 - INFO - ==================================================
+2025-07-15 15:03:18,224 - INFO - Starting CAT Flask API Server v1.0.0 (Fixed)
+2025-07-15 15:03:18,224 - INFO - Server will run at: http://127.0.0.1:5000
+2025-07-15 15:03:18,224 - INFO - Item bank loaded: 160 items
+2025-07-15 15:03:18,224 - INFO - Available endpoints:
+2025-07-15 15:03:18,224 - INFO -   GET  /health - Health check
+2025-07-15 15:03:18,224 - INFO -   POST /api/estimate-theta - Estimate theta using EAP
+2025-07-15 15:03:18,224 - INFO -   POST /api/select-item - Select next item using EFI
+2025-07-15 15:03:18,224 - INFO -   POST /api/calculate-score - Calculate score from theta
+2025-07-15 15:03:18,224 - INFO -   POST /api/stopping-criteria - Check stopping criteria
+2025-07-15 15:03:18,224 - INFO -   GET  /api/item-bank - Get item bank information
+2025-07-15 15:03:18,224 - INFO -   POST /api/test-calculation - Test calculation endpoint
+2025-07-15 15:03:18,224 - INFO -   POST /next-item - Legacy next item endpoint
+2025-07-15 15:03:18,224 - INFO -   POST /estimate-theta - Legacy theta estimation endpoint
+2025-07-15 15:03:18,224 - INFO - ==================================================
+2025-07-15 15:03:18,249 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-15 15:03:18,249 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-15 15:03:18,289 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-15 15:03:18,878 - INFO - ==================================================
+2025-07-15 15:03:18,878 - INFO - Starting CAT Flask API Server v1.0.0 (Fixed)
+2025-07-15 15:03:18,878 - INFO - Server will run at: http://127.0.0.1:5000
+2025-07-15 15:03:18,878 - INFO - Item bank loaded: 160 items
+2025-07-15 15:03:18,878 - INFO - Available endpoints:
+2025-07-15 15:03:18,878 - INFO -   GET  /health - Health check
+2025-07-15 15:03:18,878 - INFO -   POST /api/estimate-theta - Estimate theta using EAP
+2025-07-15 15:03:18,878 - INFO -   POST /api/select-item - Select next item using EFI
+2025-07-15 15:03:18,878 - INFO -   POST /api/calculate-score - Calculate score from theta
+2025-07-15 15:03:18,878 - INFO -   POST /api/stopping-criteria - Check stopping criteria
+2025-07-15 15:03:18,878 - INFO -   GET  /api/item-bank - Get item bank information
+2025-07-15 15:03:18,878 - INFO -   POST /api/test-calculation - Test calculation endpoint
+2025-07-15 15:03:18,878 - INFO -   POST /next-item - Legacy next item endpoint
+2025-07-15 15:03:18,878 - INFO -   POST /estimate-theta - Legacy theta estimation endpoint
+2025-07-15 15:03:18,878 - INFO - ==================================================
+2025-07-15 15:03:18,895 - WARNING -  * Debugger is active!
+2025-07-15 15:03:18,895 - INFO -  * Debugger PIN: 112-196-890
+2025-07-15 15:03:22,082 - INFO - 127.0.0.1 - - [15/Jul/2025 15:03:22] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:03:25,559 - INFO - 127.0.0.1 - - [15/Jul/2025 15:03:25] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:03:25,776 - INFO - 127.0.0.1 - - [15/Jul/2025 15:03:25] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:03:26,213 - INFO - 127.0.0.1 - - [15/Jul/2025 15:03:26] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:03:26,431 - INFO - 127.0.0.1 - - [15/Jul/2025 15:03:26] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:03:28,616 - INFO - 127.0.0.1 - - [15/Jul/2025 15:03:28] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:03:28,886 - INFO - === Next Item Request (Legacy) ===
+2025-07-15 15:03:28,886 - INFO - Legacy next-item call: theta=0, used_ids=[]
+2025-07-15 15:03:28,886 - INFO - Legacy next-item result: A107
+2025-07-15 15:03:28,886 - INFO - 127.0.0.1 - - [15/Jul/2025 15:03:28] "POST /next-item HTTP/1.1" 200 -
+2025-07-15 15:03:42,789 - INFO - 127.0.0.1 - - [15/Jul/2025 15:03:42] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:03:44,096 - INFO - === Estimate Theta Request (Legacy) ===
+2025-07-15 15:03:44,096 - INFO - Legacy estimate-theta call: 1 responses
+2025-07-15 15:03:44,096 - INFO - Starting EAP estimation with 1 responses
+2025-07-15 15:03:44,102 - INFO - EAP estimation completed: theta=1.000, se=1.565
+2025-07-15 15:03:44,110 - INFO - Legacy estimate-theta result: {'theta': 1.0, 'se': 1.5646510421249535, 'method': 'EAP', 'n_responses': 1, 'previous_theta': 0.0, 'theta_change': 1.0, 'api_source': 'flask'}
+2025-07-15 15:03:44,110 - INFO - 127.0.0.1 - - [15/Jul/2025 15:03:44] "POST /estimate-theta HTTP/1.1" 200 -
+2025-07-15 15:03:47,237 - INFO - 127.0.0.1 - - [15/Jul/2025 15:03:47] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:03:47,562 - INFO - === Estimate Theta Request (Legacy) ===
+2025-07-15 15:03:47,562 - INFO - Legacy estimate-theta call: 1 responses
+2025-07-15 15:03:47,567 - INFO - Starting EAP estimation with 1 responses
+2025-07-15 15:03:47,576 - INFO - EAP estimation completed: theta=-1.000, se=1.351
+2025-07-15 15:03:47,584 - INFO - Legacy estimate-theta result: {'theta': -1.0, 'se': 1.3510334943736972, 'method': 'EAP', 'n_responses': 1, 'previous_theta': 0.0, 'theta_change': 1.0, 'api_source': 'flask'}
+2025-07-15 15:03:47,584 - INFO - 127.0.0.1 - - [15/Jul/2025 15:03:47] "POST /estimate-theta HTTP/1.1" 200 -
+2025-07-15 15:03:55,990 - INFO - 127.0.0.1 - - [15/Jul/2025 15:03:55] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:03:56,218 - INFO - 127.0.0.1 - - [15/Jul/2025 15:03:56] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:04:18,652 - INFO - 127.0.0.1 - - [15/Jul/2025 15:04:18] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:04:18,871 - INFO - 127.0.0.1 - - [15/Jul/2025 15:04:18] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:04:19,764 - INFO - 127.0.0.1 - - [15/Jul/2025 15:04:19] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:04:19,988 - INFO - 127.0.0.1 - - [15/Jul/2025 15:04:19] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:04:23,047 - INFO - 127.0.0.1 - - [15/Jul/2025 15:04:23] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:04:23,335 - INFO - === Next Item Request (Legacy) ===
+2025-07-15 15:04:23,335 - INFO - Legacy next-item call: theta=0, used_ids=[]
+2025-07-15 15:04:23,335 - INFO - Legacy next-item result: A107
+2025-07-15 15:04:23,340 - INFO - 127.0.0.1 - - [15/Jul/2025 15:04:23] "POST /next-item HTTP/1.1" 200 -
+2025-07-15 15:04:31,562 - INFO - 127.0.0.1 - - [15/Jul/2025 15:04:31] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:04:31,868 - INFO - === Estimate Theta Request (Legacy) ===
+2025-07-15 15:04:31,868 - INFO - Legacy estimate-theta call: 1 responses
+2025-07-15 15:04:31,868 - INFO - Starting EAP estimation with 1 responses
+2025-07-15 15:04:31,883 - INFO - EAP estimation completed: theta=-1.000, se=1.351
+2025-07-15 15:04:31,883 - INFO - Legacy estimate-theta result: {'theta': -1.0, 'se': 1.3510334943736972, 'method': 'EAP', 'n_responses': 1, 'previous_theta': 0.0, 'theta_change': 1.0, 'api_source': 'flask'}
+2025-07-15 15:04:31,883 - INFO - 127.0.0.1 - - [15/Jul/2025 15:04:31] "POST /estimate-theta HTTP/1.1" 200 -
+2025-07-15 15:04:49,074 - INFO - 127.0.0.1 - - [15/Jul/2025 15:04:49] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:04:49,292 - INFO - 127.0.0.1 - - [15/Jul/2025 15:04:49] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:05:18,621 - INFO - 127.0.0.1 - - [15/Jul/2025 15:05:18] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:05:18,847 - INFO - 127.0.0.1 - - [15/Jul/2025 15:05:18] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:05:48,937 - INFO - 127.0.0.1 - - [15/Jul/2025 15:05:48] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:05:49,149 - INFO - 127.0.0.1 - - [15/Jul/2025 15:05:49] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:05:58,608 - INFO -  * Detected change in 'C:\\Users\\user\\Documents\\cat_flask\\cat_api.py', reloading
+2025-07-15 15:05:58,608 - INFO -  * Detected change in 'C:\\Users\\user\\Documents\\cat_flask\\cat_api.py', reloading
+2025-07-15 15:05:58,703 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-15 15:05:59,600 - INFO - ==================================================
+2025-07-15 15:05:59,602 - INFO - Starting CAT Flask API Server v1.0.0 (Fixed)
+2025-07-15 15:05:59,602 - INFO - Server will run at: http://127.0.0.1:5000
+2025-07-15 15:05:59,602 - INFO - Item bank loaded: 160 items
+2025-07-15 15:05:59,602 - INFO - Available endpoints:
+2025-07-15 15:05:59,602 - INFO -   GET  /health - Health check
+2025-07-15 15:05:59,602 - INFO -   POST /api/estimate-theta - Estimate theta using EAP
+2025-07-15 15:05:59,602 - INFO -   POST /api/select-item - Select next item using EFI
+2025-07-15 15:05:59,604 - INFO -   POST /api/calculate-score - Calculate score from theta
+2025-07-15 15:05:59,604 - INFO -   POST /api/stopping-criteria - Check stopping criteria
+2025-07-15 15:05:59,604 - INFO -   GET  /api/item-bank - Get item bank information
+2025-07-15 15:05:59,604 - INFO -   POST /api/test-calculation - Test calculation endpoint
+2025-07-15 15:05:59,604 - INFO -   POST /next-item - Legacy next item endpoint
+2025-07-15 15:05:59,604 - INFO -   POST /estimate-theta - Legacy theta estimation endpoint
+2025-07-15 15:05:59,604 - INFO - ==================================================
+2025-07-15 15:05:59,619 - WARNING -  * Debugger is active!
+2025-07-15 15:05:59,621 - INFO -  * Debugger PIN: 112-196-890
+2025-07-15 15:06:06,600 - INFO -  * Detected change in 'C:\\Users\\user\\Documents\\cat_flask\\cat_api.py', reloading
+2025-07-15 15:06:06,636 - INFO -  * Detected change in 'C:\\Users\\user\\Documents\\cat_flask\\cat_api.py', reloading
+2025-07-15 15:06:06,639 - INFO -  * Detected change in 'C:\\Users\\user\\Documents\\cat_flask\\cat_api.py', reloading
+2025-07-15 15:06:06,732 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-15 15:06:07,384 - INFO - ==================================================
+2025-07-15 15:06:07,384 - INFO - Starting CAT Flask API Server v1.0.0 (Fixed)
+2025-07-15 15:06:07,384 - INFO - Server will run at: http://127.0.0.1:5000
+2025-07-15 15:06:07,384 - INFO - Item bank loaded: 160 items
+2025-07-15 15:06:07,387 - INFO - Available endpoints:
+2025-07-15 15:06:07,387 - INFO -   GET  /health - Health check
+2025-07-15 15:06:07,387 - INFO -   POST /api/estimate-theta - Estimate theta using EAP
+2025-07-15 15:06:07,388 - INFO -   POST /api/select-item - Select next item using EFI
+2025-07-15 15:06:07,388 - INFO -   POST /api/calculate-score - Calculate score from theta
+2025-07-15 15:06:07,388 - INFO -   POST /api/stopping-criteria - Check stopping criteria
+2025-07-15 15:06:07,388 - INFO -   GET  /api/item-bank - Get item bank information
+2025-07-15 15:06:07,388 - INFO -   POST /api/test-calculation - Test calculation endpoint
+2025-07-15 15:06:07,388 - INFO -   POST /next-item - Legacy next item endpoint
+2025-07-15 15:06:07,388 - INFO -   POST /estimate-theta - Legacy theta estimation endpoint
+2025-07-15 15:06:07,388 - INFO - ==================================================
+2025-07-15 15:06:07,417 - WARNING -  * Debugger is active!
+2025-07-15 15:06:07,426 - INFO -  * Debugger PIN: 112-196-890
+2025-07-15 15:06:18,046 - INFO -  * Detected change in 'C:\\Users\\user\\Documents\\cat_flask\\cat_api.py', reloading
+2025-07-15 15:06:18,046 - INFO -  * Detected change in 'C:\\Users\\user\\Documents\\cat_flask\\cat_api.py', reloading
+2025-07-15 15:06:18,579 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-15 15:06:19,326 - INFO - ==================================================
+2025-07-15 15:06:19,326 - INFO - Starting CAT Flask API Server v1.0.0 (Fixed)
+2025-07-15 15:06:19,326 - INFO - Server will run at: http://127.0.0.1:5000
+2025-07-15 15:06:19,326 - INFO - Item bank loaded: 160 items
+2025-07-15 15:06:19,333 - INFO - Available endpoints:
+2025-07-15 15:06:19,333 - INFO -   GET  /health - Health check
+2025-07-15 15:06:19,333 - INFO -   POST /api/start-test - Start new test session
+2025-07-15 15:06:19,333 - INFO -   POST /api/submit-response - Submit response and get next item
+2025-07-15 15:06:19,333 - INFO -   POST /api/estimate-theta - Estimate theta using EAP
+2025-07-15 15:06:19,333 - INFO -   POST /api/select-item - Select next item using EFI
+2025-07-15 15:06:19,333 - INFO -   POST /api/calculate-score - Calculate score from theta
+2025-07-15 15:06:19,333 - INFO -   POST /api/stopping-criteria - Check stopping criteria
+2025-07-15 15:06:19,333 - INFO -   GET  /api/item-bank - Get item bank information
+2025-07-15 15:06:19,333 - INFO -   POST /api/test-calculation - Test calculation endpoint
+2025-07-15 15:06:19,333 - INFO -   POST /next-item - Legacy next item endpoint
+2025-07-15 15:06:19,333 - INFO -   POST /estimate-theta - Legacy theta estimation endpoint
+2025-07-15 15:06:19,333 - INFO - ==================================================
+2025-07-15 15:06:19,349 - WARNING -  * Debugger is active!
+2025-07-15 15:06:19,349 - INFO -  * Debugger PIN: 112-196-890
+2025-07-15 15:06:19,387 - INFO - 127.0.0.1 - - [15/Jul/2025 15:06:19] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:06:19,594 - INFO - 127.0.0.1 - - [15/Jul/2025 15:06:19] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:06:48,927 - INFO - 127.0.0.1 - - [15/Jul/2025 15:06:48] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:06:49,147 - INFO - 127.0.0.1 - - [15/Jul/2025 15:06:49] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:06:49,906 - INFO -  * Detected change in 'C:\\Users\\user\\Documents\\cat_flask\\cat_api.py', reloading
+2025-07-15 15:06:49,909 - INFO -  * Detected change in 'C:\\Users\\user\\Documents\\cat_flask\\cat_api.py', reloading
+2025-07-15 15:06:50,552 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-15 15:06:51,313 - INFO - ==================================================
+2025-07-15 15:06:51,313 - INFO - Starting CAT Flask API Server v1.0.0 (Fixed)
+2025-07-15 15:06:51,313 - INFO - Server will run at: http://127.0.0.1:5000
+2025-07-15 15:06:51,313 - INFO - Item bank loaded: 160 items
+2025-07-15 15:06:51,313 - INFO - Available endpoints:
+2025-07-15 15:06:51,313 - INFO -   GET  /health - Health check
+2025-07-15 15:06:51,313 - INFO -   POST /api/start-test - Start new test session
+2025-07-15 15:06:51,313 - INFO -   POST /api/submit-response - Submit response and get next item
+2025-07-15 15:06:51,313 - INFO -   POST /api/estimate-theta - Estimate theta using EAP
+2025-07-15 15:06:51,313 - INFO -   POST /api/select-item - Select next item using EFI
+2025-07-15 15:06:51,313 - INFO -   POST /api/calculate-score - Calculate score from theta
+2025-07-15 15:06:51,313 - INFO -   POST /api/stopping-criteria - Check stopping criteria
+2025-07-15 15:06:51,313 - INFO -   GET  /api/item-bank - Get item bank information
+2025-07-15 15:06:51,321 - INFO -   POST /api/test-calculation - Test calculation endpoint
+2025-07-15 15:06:51,321 - INFO -   POST /next-item - Legacy next item endpoint
+2025-07-15 15:06:51,321 - INFO -   POST /estimate-theta - Legacy theta estimation endpoint
+2025-07-15 15:06:51,321 - INFO - ==================================================
+2025-07-15 15:06:51,345 - WARNING -  * Debugger is active!
+2025-07-15 15:06:51,353 - INFO -  * Debugger PIN: 112-196-890
+2025-07-15 15:07:00,366 - INFO -  * Detected change in 'C:\\Users\\user\\Documents\\cat_flask\\cat_api.py', reloading
+2025-07-15 15:07:00,368 - INFO -  * Detected change in 'C:\\Users\\user\\Documents\\cat_flask\\cat_api.py', reloading
+2025-07-15 15:07:00,539 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-15 15:07:01,587 - INFO - ==================================================
+2025-07-15 15:07:01,587 - INFO - Starting CAT Flask API Server v1.0.0 (Fixed)
+2025-07-15 15:07:01,587 - INFO - Server will run at: http://127.0.0.1:5000
+2025-07-15 15:07:01,587 - INFO - Item bank loaded: 160 items
+2025-07-15 15:07:01,587 - INFO - Available endpoints:
+2025-07-15 15:07:01,587 - INFO -   GET  /health - Health check
+2025-07-15 15:07:01,587 - INFO -   GET  /api/flask-health - Flask API health check
+2025-07-15 15:07:01,587 - INFO -   GET  /api/api-info - API information
+2025-07-15 15:07:01,587 - INFO -   POST /api/start-test - Start new test session
+2025-07-15 15:07:01,587 - INFO -   POST /api/submit-response - Submit response and get next item
+2025-07-15 15:07:01,587 - INFO -   POST /api/estimate-theta - Estimate theta using EAP
+2025-07-15 15:07:01,587 - INFO -   POST /api/select-item - Select next item using EFI
+2025-07-15 15:07:01,587 - INFO -   POST /api/calculate-score - Calculate score from theta
+2025-07-15 15:07:01,587 - INFO -   POST /api/stopping-criteria - Check stopping criteria
+2025-07-15 15:07:01,587 - INFO -   GET  /api/item-bank - Get item bank information
+2025-07-15 15:07:01,587 - INFO -   POST /api/test-calculation - Test calculation endpoint
+2025-07-15 15:07:01,587 - INFO -   POST /next-item - Legacy next item endpoint
+2025-07-15 15:07:01,587 - INFO -   POST /estimate-theta - Legacy theta estimation endpoint
+2025-07-15 15:07:01,587 - INFO - ==================================================
+2025-07-15 15:07:01,612 - WARNING -  * Debugger is active!
+2025-07-15 15:07:01,621 - INFO -  * Debugger PIN: 112-196-890
+2025-07-15 15:07:18,700 - INFO - 127.0.0.1 - - [15/Jul/2025 15:07:18] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:07:18,914 - INFO - 127.0.0.1 - - [15/Jul/2025 15:07:18] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:07:25,115 - INFO -  * Detected change in 'C:\\Users\\user\\Documents\\cat_flask\\test_submit_response.py', reloading
+2025-07-15 15:07:25,289 - INFO -  * Detected change in 'C:\\Users\\user\\Documents\\cat_flask\\test_submit_response.py', reloading
+2025-07-15 15:07:25,328 - INFO -  * Detected change in 'C:\\Users\\user\\Documents\\cat_flask\\test_submit_response.py', reloading
+2025-07-15 15:07:25,329 - INFO -  * Detected change in 'C:\\Users\\user\\Documents\\cat_flask\\test_submit_response.py', reloading
+2025-07-15 15:07:25,838 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-15 15:07:26,900 - INFO - ==================================================
+2025-07-15 15:07:26,900 - INFO - Starting CAT Flask API Server v1.0.0 (Fixed)
+2025-07-15 15:07:26,900 - INFO - Server will run at: http://127.0.0.1:5000
+2025-07-15 15:07:26,900 - INFO - Item bank loaded: 160 items
+2025-07-15 15:07:26,900 - INFO - Available endpoints:
+2025-07-15 15:07:26,900 - INFO -   GET  /health - Health check
+2025-07-15 15:07:26,900 - INFO -   GET  /api/flask-health - Flask API health check
+2025-07-15 15:07:26,900 - INFO -   GET  /api/api-info - API information
+2025-07-15 15:07:26,900 - INFO -   POST /api/start-test - Start new test session
+2025-07-15 15:07:26,900 - INFO -   POST /api/submit-response - Submit response and get next item
+2025-07-15 15:07:26,900 - INFO -   POST /api/estimate-theta - Estimate theta using EAP
+2025-07-15 15:07:26,900 - INFO -   POST /api/select-item - Select next item using EFI
+2025-07-15 15:07:26,900 - INFO -   POST /api/calculate-score - Calculate score from theta
+2025-07-15 15:07:26,900 - INFO -   POST /api/stopping-criteria - Check stopping criteria
+2025-07-15 15:07:26,900 - INFO -   GET  /api/item-bank - Get item bank information
+2025-07-15 15:07:26,900 - INFO -   POST /api/test-calculation - Test calculation endpoint
+2025-07-15 15:07:26,900 - INFO -   POST /next-item - Legacy next item endpoint
+2025-07-15 15:07:26,900 - INFO -   POST /estimate-theta - Legacy theta estimation endpoint
+2025-07-15 15:07:26,900 - INFO - ==================================================
+2025-07-15 15:07:26,924 - WARNING -  * Debugger is active!
+2025-07-15 15:07:26,924 - INFO -  * Debugger PIN: 112-196-890
+2025-07-15 15:07:48,971 - INFO - 127.0.0.1 - - [15/Jul/2025 15:07:48] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:07:49,182 - INFO - 127.0.0.1 - - [15/Jul/2025 15:07:49] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:08:24,635 - INFO - 127.0.0.1 - - [15/Jul/2025 15:08:24] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:08:24,857 - INFO - 127.0.0.1 - - [15/Jul/2025 15:08:24] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:08:28,625 - INFO -  * Detected change in 'C:\\Users\\user\\Documents\\cat_flask\\cat_api.py', reloading
+2025-07-15 15:08:28,625 - INFO -  * Detected change in 'C:\\Users\\user\\Documents\\cat_flask\\cat_api.py', reloading
+2025-07-15 15:08:28,625 - INFO -  * Detected change in 'C:\\Users\\user\\Documents\\cat_flask\\cat_api.py', reloading
+2025-07-15 15:08:29,269 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-15 15:08:30,215 - INFO - ==================================================
+2025-07-15 15:08:30,215 - INFO - Starting CAT Flask API Server v1.0.0 (Fixed)
+2025-07-15 15:08:30,215 - INFO - Server will run at: http://127.0.0.1:5000
+2025-07-15 15:08:30,215 - INFO - Item bank loaded: 160 items
+2025-07-15 15:08:30,215 - INFO - Available endpoints:
+2025-07-15 15:08:30,215 - INFO -   GET  /health - Health check
+2025-07-15 15:08:30,215 - INFO -   GET  /api/flask-health - Flask API health check
+2025-07-15 15:08:30,215 - INFO -   GET  /api/api-info - API information
+2025-07-15 15:08:30,215 - INFO -   POST /api/start-test - Start new test session
+2025-07-15 15:08:30,215 - INFO -   POST /api/submit-response - Submit response and get next item
+2025-07-15 15:08:30,215 - INFO -   POST /api/estimate-theta - Estimate theta using EAP
+2025-07-15 15:08:30,215 - INFO -   POST /api/select-item - Select next item using EFI
+2025-07-15 15:08:30,215 - INFO -   POST /api/calculate-score - Calculate score from theta
+2025-07-15 15:08:30,215 - INFO -   POST /api/stopping-criteria - Check stopping criteria
+2025-07-15 15:08:30,215 - INFO -   GET  /api/item-bank - Get item bank information
+2025-07-15 15:08:30,215 - INFO -   POST /api/test-calculation - Test calculation endpoint
+2025-07-15 15:08:30,215 - INFO -   POST /next-item - Legacy next item endpoint
+2025-07-15 15:08:30,215 - INFO -   POST /estimate-theta - Legacy theta estimation endpoint
+2025-07-15 15:08:30,215 - INFO - ==================================================
+2025-07-15 15:08:30,229 - WARNING -  * Debugger is active!
+2025-07-15 15:08:30,231 - INFO -  * Debugger PIN: 112-196-890
+2025-07-15 15:08:43,489 - INFO - ==================================================
+2025-07-15 15:08:43,489 - INFO - Starting CAT Flask API Server v1.0.0 (Fixed)
+2025-07-15 15:08:43,489 - INFO - Server will run at: http://127.0.0.1:5000
+2025-07-15 15:08:43,489 - INFO - Item bank loaded: 160 items
+2025-07-15 15:08:43,489 - INFO - Available endpoints:
+2025-07-15 15:08:43,489 - INFO -   GET  /health - Health check
+2025-07-15 15:08:43,489 - INFO -   GET  /api/flask-health - Flask API health check
+2025-07-15 15:08:43,489 - INFO -   GET  /api/api-info - API information
+2025-07-15 15:08:43,489 - INFO -   POST /api/start-test - Start new test session
+2025-07-15 15:08:43,489 - INFO -   POST /api/submit-response - Submit response and get next item
+2025-07-15 15:08:43,489 - INFO -   POST /api/estimate-theta - Estimate theta using EAP
+2025-07-15 15:08:43,489 - INFO -   POST /api/select-item - Select next item using EFI
+2025-07-15 15:08:43,489 - INFO -   POST /api/calculate-score - Calculate score from theta
+2025-07-15 15:08:43,489 - INFO -   POST /api/stopping-criteria - Check stopping criteria
+2025-07-15 15:08:43,489 - INFO -   GET  /api/item-bank - Get item bank information
+2025-07-15 15:08:43,489 - INFO -   POST /api/test-calculation - Test calculation endpoint
+2025-07-15 15:08:43,489 - INFO -   POST /next-item - Legacy next item endpoint
+2025-07-15 15:08:43,489 - INFO -   POST /estimate-theta - Legacy theta estimation endpoint
+2025-07-15 15:08:43,489 - INFO - ==================================================
+2025-07-15 15:08:43,514 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-07-15 15:08:43,514 - INFO - [33mPress CTRL+C to quit[0m
+2025-07-15 15:08:43,522 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-15 15:08:44,208 - INFO - ==================================================
+2025-07-15 15:08:44,208 - INFO - Starting CAT Flask API Server v1.0.0 (Fixed)
+2025-07-15 15:08:44,208 - INFO - Server will run at: http://127.0.0.1:5000
+2025-07-15 15:08:44,208 - INFO - Item bank loaded: 160 items
+2025-07-15 15:08:44,208 - INFO - Available endpoints:
+2025-07-15 15:08:44,212 - INFO -   GET  /health - Health check
+2025-07-15 15:08:44,213 - INFO -   GET  /api/flask-health - Flask API health check
+2025-07-15 15:08:44,214 - INFO -   GET  /api/api-info - API information
+2025-07-15 15:08:44,214 - INFO -   POST /api/start-test - Start new test session
+2025-07-15 15:08:44,214 - INFO -   POST /api/submit-response - Submit response and get next item
+2025-07-15 15:08:44,214 - INFO -   POST /api/estimate-theta - Estimate theta using EAP
+2025-07-15 15:08:44,214 - INFO -   POST /api/select-item - Select next item using EFI
+2025-07-15 15:08:44,214 - INFO -   POST /api/calculate-score - Calculate score from theta
+2025-07-15 15:08:44,214 - INFO -   POST /api/stopping-criteria - Check stopping criteria
+2025-07-15 15:08:44,214 - INFO -   GET  /api/item-bank - Get item bank information
+2025-07-15 15:08:44,214 - INFO -   POST /api/test-calculation - Test calculation endpoint
+2025-07-15 15:08:44,214 - INFO -   POST /next-item - Legacy next item endpoint
+2025-07-15 15:08:44,214 - INFO -   POST /estimate-theta - Legacy theta estimation endpoint
+2025-07-15 15:08:44,214 - INFO - ==================================================
+2025-07-15 15:08:44,258 - WARNING -  * Debugger is active!
+2025-07-15 15:08:44,258 - INFO -  * Debugger PIN: 112-196-890
+2025-07-15 15:08:48,056 - INFO - 127.0.0.1 - - [15/Jul/2025 15:08:48] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:08:51,447 - INFO - 127.0.0.1 - - [15/Jul/2025 15:08:51] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:08:51,662 - INFO - 127.0.0.1 - - [15/Jul/2025 15:08:51] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:08:52,006 - INFO - 127.0.0.1 - - [15/Jul/2025 15:08:52] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:08:52,242 - INFO - 127.0.0.1 - - [15/Jul/2025 15:08:52] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:08:57,032 - INFO - 127.0.0.1 - - [15/Jul/2025 15:08:57] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:08:57,338 - INFO - === Next Item Request (Legacy) ===
+2025-07-15 15:08:57,338 - INFO - Legacy next-item call: theta=0, used_ids=[]
+2025-07-15 15:08:57,338 - INFO - Legacy next-item result: A107
+2025-07-15 15:08:57,338 - INFO - 127.0.0.1 - - [15/Jul/2025 15:08:57] "POST /next-item HTTP/1.1" 200 -
+2025-07-15 15:09:02,017 - INFO - 127.0.0.1 - - [15/Jul/2025 15:09:02] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:09:02,358 - INFO - === Estimate Theta Request (Legacy) ===
+2025-07-15 15:09:02,383 - INFO - Legacy estimate-theta call: 1 responses
+2025-07-15 15:09:02,384 - INFO - Starting EAP estimation with 1 responses
+2025-07-15 15:09:02,395 - INFO - EAP estimation completed: theta=1.000, se=1.565
+2025-07-15 15:09:02,395 - INFO - Legacy estimate-theta result: {'theta': 1.0, 'se': 1.5646510421249535, 'method': 'EAP', 'n_responses': 1, 'previous_theta': 0.0, 'theta_change': 1.0, 'api_source': 'flask'}
+2025-07-15 15:09:02,395 - INFO - 127.0.0.1 - - [15/Jul/2025 15:09:02] "POST /estimate-theta HTTP/1.1" 200 -
+2025-07-15 15:09:11,145 - INFO - 127.0.0.1 - - [15/Jul/2025 15:09:11] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:09:11,444 - INFO - === Estimate Theta Request (Legacy) ===
+2025-07-15 15:09:11,444 - INFO - Legacy estimate-theta call: 1 responses
+2025-07-15 15:09:11,444 - INFO - Starting EAP estimation with 1 responses
+2025-07-15 15:09:11,458 - INFO - EAP estimation completed: theta=1.000, se=1.565
+2025-07-15 15:09:11,458 - INFO - Legacy estimate-theta result: {'theta': 1.0, 'se': 1.5646510421249535, 'method': 'EAP', 'n_responses': 1, 'previous_theta': 0.0, 'theta_change': 1.0, 'api_source': 'flask'}
+2025-07-15 15:09:11,461 - INFO - 127.0.0.1 - - [15/Jul/2025 15:09:11] "POST /estimate-theta HTTP/1.1" 200 -
+2025-07-15 15:09:22,017 - INFO - 127.0.0.1 - - [15/Jul/2025 15:09:22] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:09:22,239 - INFO - 127.0.0.1 - - [15/Jul/2025 15:09:22] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:09:51,643 - INFO - 127.0.0.1 - - [15/Jul/2025 15:09:51] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:09:51,856 - INFO - 127.0.0.1 - - [15/Jul/2025 15:09:51] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:10:12,553 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\test\\__init__.py', reloading
+2025-07-15 15:10:12,553 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\test\\__init__.py', reloading
+2025-07-15 15:10:12,769 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-15 15:10:12,942 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-15 15:10:13,474 - INFO - ==================================================
+2025-07-15 15:10:13,474 - INFO - Starting CAT Flask API Server v1.0.0 (Fixed)
+2025-07-15 15:10:13,474 - INFO - Server will run at: http://127.0.0.1:5000
+2025-07-15 15:10:13,474 - INFO - Item bank loaded: 160 items
+2025-07-15 15:10:13,474 - INFO - Available endpoints:
+2025-07-15 15:10:13,474 - INFO -   GET  /health - Health check
+2025-07-15 15:10:13,474 - INFO -   GET  /api/flask-health - Flask API health check
+2025-07-15 15:10:13,474 - INFO -   GET  /api/api-info - API information
+2025-07-15 15:10:13,482 - INFO -   POST /api/start-test - Start new test session
+2025-07-15 15:10:13,482 - INFO -   POST /api/submit-response - Submit response and get next item
+2025-07-15 15:10:13,482 - INFO -   POST /api/estimate-theta - Estimate theta using EAP
+2025-07-15 15:10:13,482 - INFO -   POST /api/select-item - Select next item using EFI
+2025-07-15 15:10:13,482 - INFO -   POST /api/calculate-score - Calculate score from theta
+2025-07-15 15:10:13,482 - INFO -   POST /api/stopping-criteria - Check stopping criteria
+2025-07-15 15:10:13,482 - INFO -   GET  /api/item-bank - Get item bank information
+2025-07-15 15:10:13,482 - INFO -   POST /api/test-calculation - Test calculation endpoint
+2025-07-15 15:10:13,482 - INFO -   POST /next-item - Legacy next item endpoint
+2025-07-15 15:10:13,482 - INFO -   POST /estimate-theta - Legacy theta estimation endpoint
+2025-07-15 15:10:13,482 - INFO - ==================================================
+2025-07-15 15:10:13,491 - WARNING -  * Debugger is active!
+2025-07-15 15:10:13,499 - INFO -  * Debugger PIN: 112-196-890
+2025-07-15 15:10:13,646 - INFO - ==================================================
+2025-07-15 15:10:13,646 - INFO - Starting CAT Flask API Server v1.0.0 (Fixed)
+2025-07-15 15:10:13,646 - INFO - Server will run at: http://127.0.0.1:5000
+2025-07-15 15:10:13,646 - INFO - Item bank loaded: 160 items
+2025-07-15 15:10:13,646 - INFO - Available endpoints:
+2025-07-15 15:10:13,646 - INFO -   GET  /health - Health check
+2025-07-15 15:10:13,646 - INFO -   GET  /api/flask-health - Flask API health check
+2025-07-15 15:10:13,646 - INFO -   GET  /api/api-info - API information
+2025-07-15 15:10:13,646 - INFO -   POST /api/start-test - Start new test session
+2025-07-15 15:10:13,646 - INFO -   POST /api/submit-response - Submit response and get next item
+2025-07-15 15:10:13,646 - INFO -   POST /api/estimate-theta - Estimate theta using EAP
+2025-07-15 15:10:13,646 - INFO -   POST /api/select-item - Select next item using EFI
+2025-07-15 15:10:13,646 - INFO -   POST /api/calculate-score - Calculate score from theta
+2025-07-15 15:10:13,646 - INFO -   POST /api/stopping-criteria - Check stopping criteria
+2025-07-15 15:10:13,646 - INFO -   GET  /api/item-bank - Get item bank information
+2025-07-15 15:10:13,646 - INFO -   POST /api/test-calculation - Test calculation endpoint
+2025-07-15 15:10:13,646 - INFO -   POST /next-item - Legacy next item endpoint
+2025-07-15 15:10:13,646 - INFO -   POST /estimate-theta - Legacy theta estimation endpoint
+2025-07-15 15:10:13,655 - INFO - ==================================================
+2025-07-15 15:10:13,664 - WARNING -  * Debugger is active!
+2025-07-15 15:10:13,671 - INFO -  * Debugger PIN: 112-196-890
+2025-07-15 15:10:21,969 - INFO - 127.0.0.1 - - [15/Jul/2025 15:10:21] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:10:22,183 - INFO - 127.0.0.1 - - [15/Jul/2025 15:10:22] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:10:31,753 - INFO -  * Detected change in 'C:\\Users\\user\\Documents\\cat_flask\\cat_flask\\vendor\\mockery\\mockery\\docs\\conf.py', reloading
+2025-07-15 15:10:31,755 - INFO -  * Detected change in 'C:\\Users\\user\\Documents\\cat_flask\\cat_flask\\vendor\\mockery\\mockery\\docs\\conf.py', reloading
+2025-07-15 15:10:31,795 - INFO -  * Detected change in 'C:\\Users\\user\\Documents\\cat_flask\\vendor\\mockery\\mockery\\docs\\conf.py', reloading
+2025-07-15 15:10:31,795 - INFO -  * Detected change in 'C:\\Users\\user\\Documents\\cat_flask\\vendor\\mockery\\mockery\\docs\\conf.py', reloading
+2025-07-15 15:10:31,943 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask\\__init__.py', reloading
+2025-07-15 15:10:31,943 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask\\__init__.py', reloading
+2025-07-15 15:10:31,952 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask\\app.py', reloading
+2025-07-15 15:10:31,952 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask\\app.py', reloading
+2025-07-15 15:10:31,976 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask\\sansio\\app.py', reloading
+2025-07-15 15:10:31,976 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask\\sansio\\app.py', reloading
+2025-07-15 15:10:31,993 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask\\sansio\\scaffold.py', reloading
+2025-07-15 15:10:32,001 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask\\globals.py', reloading
+2025-07-15 15:10:32,001 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask\\globals.py', reloading
+2025-07-15 15:10:32,001 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask\\wrappers.py', reloading
+2025-07-15 15:10:32,001 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask\\wrappers.py', reloading
+2025-07-15 15:10:32,009 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+2025-07-15 15:10:32,009 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\werkzeug\\wrappers\\__init__.py', reloading
+2025-07-15 15:10:32,009 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\werkzeug\\wrappers\\request.py', reloading
+2025-07-15 15:10:32,009 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\werkzeug\\wrappers\\request.py', reloading
+2025-07-15 15:10:32,009 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\werkzeug\\sansio\\request.py', reloading
+2025-07-15 15:10:32,009 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\werkzeug\\sansio\\request.py', reloading
+2025-07-15 15:10:32,018 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask\\json\\__init__.py', reloading
+2025-07-15 15:10:32,018 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask\\json\\__init__.py', reloading
+2025-07-15 15:10:32,018 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\werkzeug\\wrappers\\response.py', reloading
+2025-07-15 15:10:32,018 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\werkzeug\\wrappers\\response.py', reloading
+2025-07-15 15:10:32,026 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\werkzeug\\sansio\\response.py', reloading
+2025-07-15 15:10:32,026 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\werkzeug\\sansio\\response.py', reloading
+2025-07-15 15:10:32,164 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\_typing\\__init__.py', reloading
+2025-07-15 15:10:32,164 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\_typing\\_shape.py', reloading
+2025-07-15 15:10:32,164 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\_typing\\_shape.py', reloading
+2025-07-15 15:10:32,336 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\typing\\__init__.py', reloading
+2025-07-15 15:10:32,344 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\_typing\\_array_like.py', reloading
+2025-07-15 15:10:32,344 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\_typing\\_array_like.py', reloading
+2025-07-15 15:10:32,352 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask\\blueprints.py', reloading
+2025-07-15 15:10:32,352 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask\\blueprints.py', reloading
+2025-07-15 15:10:32,361 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask\\sansio\\blueprints.py', reloading
+2025-07-15 15:10:32,361 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask\\sansio\\blueprints.py', reloading
+2025-07-15 15:10:32,369 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask\\typing.py', reloading
+2025-07-15 15:10:32,369 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask\\typing.py', reloading
+2025-07-15 15:10:32,372 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\werkzeug\\datastructures\\__init__.py', reloading
+2025-07-15 15:10:32,372 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\werkzeug\\datastructures\\__init__.py', reloading
+2025-07-15 15:10:32,372 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\werkzeug\\datastructures\\headers.py', reloading
+2025-07-15 15:10:32,372 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\werkzeug\\datastructures\\headers.py', reloading
+2025-07-15 15:10:32,409 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\_typing\\_nested_sequence.py', reloading
+2025-07-15 15:10:32,409 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\_typing\\_nested_sequence.py', reloading
+2025-07-15 15:10:32,409 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\_typing\\_dtype_like.py', reloading
+2025-07-15 15:10:32,417 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\numpy\\_typing\\_scalars.py', reloading
+2025-07-15 15:10:32,441 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\werkzeug\\utils.py', reloading
+2025-07-15 15:10:32,441 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\werkzeug\\utils.py', reloading
+2025-07-15 15:10:32,449 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\werkzeug\\_internal.py', reloading
+2025-07-15 15:10:32,498 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\stats\\__init__.py', reloading
+2025-07-15 15:10:32,498 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\stats\\__init__.py', reloading
+2025-07-15 15:10:32,498 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\stats\\_stats_py.py', reloading
+2025-07-15 15:10:32,498 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\stats\\_stats_py.py', reloading
+2025-07-15 15:10:32,573 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\stats\\distributions.py', reloading
+2025-07-15 15:10:32,581 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\stats\\_continuous_distns.py', reloading
+2025-07-15 15:10:32,645 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-15 15:10:32,654 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\stats\\_discrete_distns.py', reloading
+2025-07-15 15:10:32,662 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\stats\\_morestats.py', reloading
+2025-07-15 15:10:32,686 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\stats\\_multicomp.py', reloading
+2025-07-15 15:10:32,686 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\stats\\_binned_statistic.py', reloading
+2025-07-15 15:10:32,694 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\stats\\_multivariate.py', reloading
+2025-07-15 15:10:32,711 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\sklearn\\frozen\\__init__.py', reloading
+2025-07-15 15:10:32,719 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\stats\\_entropy.py', reloading
+2025-07-15 15:10:32,727 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\stats\\_hypotests.py', reloading
+2025-07-15 15:10:32,735 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\stats\\_sensitivity_analysis.py', reloading
+2025-07-15 15:10:32,735 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\stats\\_survival.py', reloading
+2025-07-15 15:10:32,743 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\scipy\\stats\\_distn_infrastructure.py', reloading
+2025-07-15 15:10:32,842 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-15 15:10:33,397 - INFO - ==================================================
+2025-07-15 15:10:33,397 - INFO - Starting CAT Flask API Server v1.0.0 (Fixed)
+2025-07-15 15:10:33,397 - INFO - Server will run at: http://127.0.0.1:5000
+2025-07-15 15:10:33,397 - INFO - Item bank loaded: 160 items
+2025-07-15 15:10:33,397 - INFO - Available endpoints:
+2025-07-15 15:10:33,397 - INFO -   GET  /health - Health check
+2025-07-15 15:10:33,397 - INFO -   GET  /api/flask-health - Flask API health check
+2025-07-15 15:10:33,397 - INFO -   GET  /api/api-info - API information
+2025-07-15 15:10:33,397 - INFO -   POST /api/start-test - Start new test session
+2025-07-15 15:10:33,397 - INFO -   POST /api/submit-response - Submit response and get next item
+2025-07-15 15:10:33,397 - INFO -   POST /api/estimate-theta - Estimate theta using EAP
+2025-07-15 15:10:33,397 - INFO -   POST /api/select-item - Select next item using EFI
+2025-07-15 15:10:33,405 - INFO -   POST /api/calculate-score - Calculate score from theta
+2025-07-15 15:10:33,405 - INFO -   POST /api/stopping-criteria - Check stopping criteria
+2025-07-15 15:10:33,405 - INFO -   GET  /api/item-bank - Get item bank information
+2025-07-15 15:10:33,405 - INFO -   POST /api/test-calculation - Test calculation endpoint
+2025-07-15 15:10:33,405 - INFO -   POST /next-item - Legacy next item endpoint
+2025-07-15 15:10:33,405 - INFO -   POST /estimate-theta - Legacy theta estimation endpoint
+2025-07-15 15:10:33,405 - INFO - ==================================================
+2025-07-15 15:10:33,415 - WARNING -  * Debugger is active!
+2025-07-15 15:10:33,424 - INFO -  * Debugger PIN: 112-196-890
+2025-07-15 15:10:33,523 - INFO - ==================================================
+2025-07-15 15:10:33,523 - INFO - Starting CAT Flask API Server v1.0.0 (Fixed)
+2025-07-15 15:10:33,523 - INFO - Server will run at: http://127.0.0.1:5000
+2025-07-15 15:10:33,523 - INFO - Item bank loaded: 160 items
+2025-07-15 15:10:33,523 - INFO - Available endpoints:
+2025-07-15 15:10:33,525 - INFO -   GET  /health - Health check
+2025-07-15 15:10:33,525 - INFO -   GET  /api/flask-health - Flask API health check
+2025-07-15 15:10:33,525 - INFO -   GET  /api/api-info - API information
+2025-07-15 15:10:33,525 - INFO -   POST /api/start-test - Start new test session
+2025-07-15 15:10:33,525 - INFO -   POST /api/submit-response - Submit response and get next item
+2025-07-15 15:10:33,525 - INFO -   POST /api/estimate-theta - Estimate theta using EAP
+2025-07-15 15:10:33,525 - INFO -   POST /api/select-item - Select next item using EFI
+2025-07-15 15:10:33,525 - INFO -   POST /api/calculate-score - Calculate score from theta
+2025-07-15 15:10:33,525 - INFO -   POST /api/stopping-criteria - Check stopping criteria
+2025-07-15 15:10:33,525 - INFO -   GET  /api/item-bank - Get item bank information
+2025-07-15 15:10:33,525 - INFO -   POST /api/test-calculation - Test calculation endpoint
+2025-07-15 15:10:33,525 - INFO -   POST /next-item - Legacy next item endpoint
+2025-07-15 15:10:33,525 - INFO -   POST /estimate-theta - Legacy theta estimation endpoint
+2025-07-15 15:10:33,526 - INFO - ==================================================
+2025-07-15 15:10:33,541 - WARNING -  * Debugger is active!
+2025-07-15 15:10:33,543 - INFO -  * Debugger PIN: 112-196-890
+2025-07-15 15:10:51,663 - INFO - 127.0.0.1 - - [15/Jul/2025 15:10:51] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:10:51,879 - INFO - 127.0.0.1 - - [15/Jul/2025 15:10:51] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:11:21,916 - INFO - 127.0.0.1 - - [15/Jul/2025 15:11:21] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:11:22,129 - INFO - 127.0.0.1 - - [15/Jul/2025 15:11:22] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:11:51,611 - INFO - 127.0.0.1 - - [15/Jul/2025 15:11:51] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:11:51,831 - INFO - 127.0.0.1 - - [15/Jul/2025 15:11:51] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:12:21,914 - INFO - 127.0.0.1 - - [15/Jul/2025 15:12:21] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:12:22,126 - INFO - 127.0.0.1 - - [15/Jul/2025 15:12:22] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:13:22,961 - INFO - 127.0.0.1 - - [15/Jul/2025 15:13:22] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:13:23,189 - INFO - 127.0.0.1 - - [15/Jul/2025 15:13:23] "GET /health HTTP/1.1" 200 -
+2025-07-15 15:13:56,903 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask_cors\\extension.py', reloading
+2025-07-15 15:13:56,908 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask_cors\\extension.py', reloading
+2025-07-15 15:13:56,985 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask_cors\\core.py', reloading
+2025-07-15 15:13:56,985 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\flask_cors\\core.py', reloading
+2025-07-15 15:13:57,060 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\werkzeug\\datastructures\\structures.py', reloading
+2025-07-15 15:13:57,063 - INFO -  * Detected change in 'C:\\Users\\user\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\site-packages\\werkzeug\\datastructures\\structures.py', reloading
+2025-07-15 15:13:57,149 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-15 15:13:57,282 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-15 15:13:57,867 - INFO - ==================================================
+2025-07-15 15:13:57,867 - INFO - Starting CAT Flask API Server v1.0.0 (Fixed)
+2025-07-15 15:13:57,867 - INFO - Server will run at: http://127.0.0.1:5000
+2025-07-15 15:13:57,867 - INFO - Item bank loaded: 160 items
+2025-07-15 15:13:57,867 - INFO - Available endpoints:
+2025-07-15 15:13:57,867 - INFO -   GET  /health - Health check
+2025-07-15 15:13:57,867 - INFO -   GET  /api/flask-health - Flask API health check
+2025-07-15 15:13:57,867 - INFO -   GET  /api/api-info - API information
+2025-07-15 15:13:57,867 - INFO -   POST /api/start-test - Start new test session
+2025-07-15 15:13:57,867 - INFO -   POST /api/submit-response - Submit response and get next item
+2025-07-15 15:13:57,867 - INFO -   POST /api/estimate-theta - Estimate theta using EAP
+2025-07-15 15:13:57,867 - INFO -   POST /api/select-item - Select next item using EFI
+2025-07-15 15:13:57,867 - INFO -   POST /api/calculate-score - Calculate score from theta
+2025-07-15 15:13:57,867 - INFO -   POST /api/stopping-criteria - Check stopping criteria
+2025-07-15 15:13:57,874 - INFO -   GET  /api/item-bank - Get item bank information
+2025-07-15 15:13:57,874 - INFO -   POST /api/test-calculation - Test calculation endpoint
+2025-07-15 15:13:57,874 - INFO -   POST /next-item - Legacy next item endpoint
+2025-07-15 15:13:57,874 - INFO -   POST /estimate-theta - Legacy theta estimation endpoint
+2025-07-15 15:13:57,874 - INFO - ==================================================
+2025-07-15 15:13:57,890 - WARNING -  * Debugger is active!
+2025-07-15 15:13:57,891 - INFO -  * Debugger PIN: 112-196-890
+2025-07-15 15:13:57,980 - INFO - ==================================================
+2025-07-15 15:13:57,980 - INFO - Starting CAT Flask API Server v1.0.0 (Fixed)
+2025-07-15 15:13:57,980 - INFO - Server will run at: http://127.0.0.1:5000
+2025-07-15 15:13:57,980 - INFO - Item bank loaded: 160 items
+2025-07-15 15:13:57,980 - INFO - Available endpoints:
+2025-07-15 15:13:57,980 - INFO -   GET  /health - Health check
+2025-07-15 15:13:57,980 - INFO -   GET  /api/flask-health - Flask API health check
+2025-07-15 15:13:57,980 - INFO -   GET  /api/api-info - API information
+2025-07-15 15:13:57,980 - INFO -   POST /api/start-test - Start new test session
+2025-07-15 15:13:57,980 - INFO -   POST /api/submit-response - Submit response and get next item
+2025-07-15 15:13:57,980 - INFO -   POST /api/estimate-theta - Estimate theta using EAP
+2025-07-15 15:13:57,980 - INFO -   POST /api/select-item - Select next item using EFI
+2025-07-15 15:13:57,980 - INFO -   POST /api/calculate-score - Calculate score from theta
+2025-07-15 15:13:57,980 - INFO -   POST /api/stopping-criteria - Check stopping criteria
+2025-07-15 15:13:57,980 - INFO -   GET  /api/item-bank - Get item bank information
+2025-07-15 15:13:57,980 - INFO -   POST /api/test-calculation - Test calculation endpoint
+2025-07-15 15:13:57,980 - INFO -   POST /next-item - Legacy next item endpoint
+2025-07-15 15:13:57,980 - INFO -   POST /estimate-theta - Legacy theta estimation endpoint
+2025-07-15 15:13:57,980 - INFO - ==================================================
+2025-07-15 15:13:57,997 - WARNING -  * Debugger is active!
+2025-07-15 15:13:57,997 - INFO -  * Debugger PIN: 112-196-890
+2025-07-15 15:14:18,458 - INFO -  * Detected change in 'C:\\Users\\user\\Documents\\cat_flask\\cat_api.py', reloading
+2025-07-15 15:14:18,458 - INFO -  * Detected change in 'C:\\Users\\user\\Documents\\cat_flask\\cat_api.py', reloading
+2025-07-15 15:14:18,495 - INFO -  * Detected change in 'C:\\Users\\user\\Documents\\cat_flask\\cat_api.py', reloading
+2025-07-15 15:14:18,495 - INFO -  * Detected change in 'C:\\Users\\user\\Documents\\cat_flask\\cat_api.py', reloading
+2025-07-15 15:14:18,498 - INFO -  * Detected change in 'C:\\Users\\user\\Documents\\cat_flask\\cat_api.py', reloading
+2025-07-15 15:14:18,498 - INFO -  * Detected change in 'C:\\Users\\user\\Documents\\cat_flask\\cat_api.py', reloading
+2025-07-15 15:14:19,112 - INFO -  * Restarting with watchdog (windowsapi)
+2025-07-15 15:14:19,177 - INFO -  * Restarting with watchdog (windowsapi)
+[2025-07-22 13:05:09] process: start_CAT | memory: 138.2MB | cpu_load: 0.01
+[2025-07-22 13:05:10] process: select_next_item | memory: 138.2MB | cpu_load: 0.02
+[2025-07-22 13:05:10] process: estimate_theta_MAP | memory: 138.2MB | cpu_load: 0.05
+[2025-07-22 13:05:10] process: end_CAT | memory: 138.2MB | cpu_load: 0.09
+[2025-07-22 13:07:00] process: start_CAT | memory: 138.0MB | cpu_load: 0.02
+[2025-07-22 13:08:31] process: start_CAT | memory: 136.1MB | cpu_load: 0.04
+[2025-07-22 13:08:32] process: api_request_health_check | memory: 136.1MB | cpu_load: 0.02
+[2025-07-22 13:08:32] process: api_request_estimate_theta | memory: 136.1MB | cpu_load: 0.05
+[2025-07-22 13:08:33] process: estimate_theta_MAP | memory: 136.1MB | cpu_load: 0.01
+[2025-07-22 13:08:34] process: api_request_select_item | memory: 136.1MB | cpu_load: 0.07
+[2025-07-22 13:08:34] process: select_next_item | memory: 136.1MB | cpu_load: 0.00
+[2025-07-22 13:08:35] process: item_selection | memory: 136.1MB | cpu_load: 0.02
+[2025-07-22 13:08:35] process: api_request_stopping_criteria | memory: 136.1MB | cpu_load: 0.02
+[2025-07-22 13:08:36] process: check_stopping_criteria | memory: 136.1MB | cpu_load: 0.06
+[2025-07-22 13:08:37] process: api_request_calculate_score | memory: 136.1MB | cpu_load: 0.03
+[2025-07-22 13:08:37] process: calculate_score | memory: 136.1MB | cpu_load: 0.01
+[2025-07-22 13:08:38] process: final_scoring | memory: 136.2MB | cpu_load: 0.03
+[2025-07-22 13:08:38] process: estimate_theta_EAP | memory: 136.2MB | cpu_load: 0.04
+[2025-07-22 13:08:39] process: end_CAT | memory: 136.2MB | cpu_load: 0.02
+[2025-07-22 13:18:12] process: start_CAT | memory: 138.4MB | cpu_load: 0.06
+[2025-07-22 18:38:35] process: start_CAT | memory: 137.9MB | cpu_load: 0.05
+[2025-07-22 18:45:00] process: api_request_select_item | memory: 139.4MB | cpu_load: 0.00
+[2025-07-22 18:45:00] process: select_next_item | memory: 139.4MB | cpu_load: 0.02
+[2025-07-22 18:45:19] process: api_request_estimate_theta | memory: 139.4MB | cpu_load: 0.02
+[2025-07-22 18:45:20] process: estimate_theta_MAP | memory: 139.4MB | cpu_load: 0.03
+[2025-07-22 18:45:20] process: api_request_stopping_criteria | memory: 139.4MB | cpu_load: 0.02
+[2025-07-22 18:45:20] process: check_stopping_criteria | memory: 139.4MB | cpu_load: 0.02
+[2025-07-22 18:45:20] process: api_request_select_item | memory: 139.4MB | cpu_load: 0.01
+[2025-07-22 18:45:21] process: select_next_item | memory: 139.5MB | cpu_load: 0.01
+[2025-07-22 18:45:22] process: api_request_estimate_theta | memory: 139.5MB | cpu_load: 0.02
+[2025-07-22 18:45:22] process: estimate_theta_MAP | memory: 139.5MB | cpu_load: 0.01
+[2025-07-22 18:45:23] process: api_request_stopping_criteria | memory: 139.5MB | cpu_load: 0.01
+[2025-07-22 18:45:23] process: check_stopping_criteria | memory: 139.5MB | cpu_load: 0.04
+[2025-07-22 18:45:23] process: api_request_select_item | memory: 139.5MB | cpu_load: 0.03
+[2025-07-22 18:45:23] process: select_next_item | memory: 139.5MB | cpu_load: 0.02
+[2025-07-22 18:45:25] process: api_request_estimate_theta | memory: 139.5MB | cpu_load: 0.04
+[2025-07-22 18:45:25] process: estimate_theta_MAP | memory: 139.5MB | cpu_load: 0.03
+[2025-07-22 18:45:26] process: api_request_stopping_criteria | memory: 139.5MB | cpu_load: 0.01
+[2025-07-22 18:45:26] process: check_stopping_criteria | memory: 139.5MB | cpu_load: 0.02
+[2025-07-22 18:45:26] process: api_request_select_item | memory: 139.5MB | cpu_load: 0.01
+[2025-07-22 18:45:26] process: select_next_item | memory: 139.5MB | cpu_load: 0.04
+[2025-07-22 18:45:28] process: api_request_estimate_theta | memory: 139.6MB | cpu_load: 0.04
+[2025-07-22 18:45:28] process: estimate_theta_MAP | memory: 139.6MB | cpu_load: 0.00
+[2025-07-22 18:45:28] process: api_request_stopping_criteria | memory: 139.6MB | cpu_load: 0.03
+[2025-07-22 18:45:28] process: check_stopping_criteria | memory: 139.6MB | cpu_load: 0.02
+[2025-07-22 18:45:28] process: api_request_select_item | memory: 139.6MB | cpu_load: 0.04
+[2025-07-22 18:45:29] process: select_next_item | memory: 139.6MB | cpu_load: 0.04
+[2025-07-22 18:45:30] process: api_request_estimate_theta | memory: 139.6MB | cpu_load: 0.02
+[2025-07-22 18:45:30] process: estimate_theta_MAP | memory: 139.6MB | cpu_load: 0.03
+[2025-07-22 18:45:31] process: api_request_stopping_criteria | memory: 139.6MB | cpu_load: 0.04
+[2025-07-22 18:45:31] process: check_stopping_criteria | memory: 139.6MB | cpu_load: 0.07
+[2025-07-22 18:45:31] process: api_request_select_item | memory: 139.6MB | cpu_load: 0.05
+[2025-07-22 18:45:31] process: select_next_item | memory: 139.6MB | cpu_load: 0.03
+[2025-07-22 18:45:33] process: api_request_estimate_theta | memory: 139.6MB | cpu_load: 0.02
+[2025-07-22 18:45:33] process: estimate_theta_MAP | memory: 139.6MB | cpu_load: 0.00
+[2025-07-22 18:45:33] process: api_request_stopping_criteria | memory: 139.6MB | cpu_load: 0.02
+[2025-07-22 18:45:33] process: check_stopping_criteria | memory: 139.6MB | cpu_load: 0.00
+[2025-07-22 18:45:34] process: api_request_select_item | memory: 139.6MB | cpu_load: 0.00
+[2025-07-22 18:45:34] process: select_next_item | memory: 139.6MB | cpu_load: 0.07
+[2025-07-22 18:45:36] process: api_request_estimate_theta | memory: 139.6MB | cpu_load: 0.00
+[2025-07-22 18:45:36] process: estimate_theta_MAP | memory: 139.6MB | cpu_load: 0.02
+[2025-07-22 18:45:36] process: api_request_stopping_criteria | memory: 139.6MB | cpu_load: 0.00
+[2025-07-22 18:45:36] process: check_stopping_criteria | memory: 139.6MB | cpu_load: 0.06
+[2025-07-22 18:45:36] process: api_request_select_item | memory: 139.6MB | cpu_load: 0.01
+[2025-07-22 18:45:37] process: select_next_item | memory: 139.6MB | cpu_load: 0.07
+[2025-07-22 18:45:51] process: api_request_estimate_theta | memory: 139.6MB | cpu_load: 0.02
+[2025-07-22 18:45:51] process: estimate_theta_MAP | memory: 139.6MB | cpu_load: 0.02
+[2025-07-22 18:45:51] process: api_request_stopping_criteria | memory: 139.6MB | cpu_load: 0.10
+[2025-07-22 18:45:52] process: check_stopping_criteria | memory: 139.6MB | cpu_load: 0.01
+[2025-07-22 18:45:52] process: api_request_select_item | memory: 139.6MB | cpu_load: 0.04
+[2025-07-22 18:45:52] process: select_next_item | memory: 139.6MB | cpu_load: 0.02
+[2025-07-22 18:45:55] process: api_request_estimate_theta | memory: 139.6MB | cpu_load: 0.00
+[2025-07-22 18:45:55] process: estimate_theta_MAP | memory: 139.6MB | cpu_load: 0.01
+[2025-07-22 18:45:55] process: api_request_stopping_criteria | memory: 139.6MB | cpu_load: 0.00
+[2025-07-22 18:45:55] process: check_stopping_criteria | memory: 139.6MB | cpu_load: 0.04
+[2025-07-22 18:45:55] process: api_request_select_item | memory: 139.6MB | cpu_load: 0.08
+[2025-07-22 18:45:56] process: select_next_item | memory: 139.6MB | cpu_load: 0.05
+[2025-07-22 18:45:58] process: api_request_estimate_theta | memory: 139.7MB | cpu_load: 0.02
+[2025-07-22 18:45:58] process: estimate_theta_MAP | memory: 139.7MB | cpu_load: 0.04
+[2025-07-22 18:45:59] process: api_request_stopping_criteria | memory: 139.7MB | cpu_load: 0.02
+[2025-07-22 18:45:59] process: check_stopping_criteria | memory: 139.7MB | cpu_load: 0.05
+[2025-07-22 18:45:59] process: final_scoring | memory: 139.7MB | cpu_load: 0.02
+[2025-07-22 18:45:59] process: estimate_theta_EAP | memory: 139.7MB | cpu_load: 0.00
+[2025-07-22 18:45:59] process: calculate_score | memory: 139.7MB | cpu_load: 0.02
+[2025-07-22 18:48:15] process: start_CAT | memory: 138.1MB | cpu_load: 0.00
+[2025-07-22 18:55:21] process: start_CAT | memory: 138.2MB | cpu_load: 0.03
+[2025-07-22 18:55:30] process: api_request_select_item | memory: 139.7MB | cpu_load: 0.02
+[2025-07-22 18:55:30] process: select_next_item | memory: 139.7MB | cpu_load: 0.04
+[2025-07-22 18:55:35] process: api_request_estimate_theta | memory: 139.7MB | cpu_load: 0.06
+[2025-07-22 18:55:35] process: estimate_theta_MAP | memory: 139.7MB | cpu_load: 0.02
+[2025-07-22 18:55:36] process: api_request_stopping_criteria | memory: 139.7MB | cpu_load: 0.04
+[2025-07-22 18:55:36] process: check_stopping_criteria | memory: 139.7MB | cpu_load: 0.08
+[2025-07-22 18:55:36] process: api_request_select_item | memory: 139.7MB | cpu_load: 0.04
+[2025-07-22 18:55:36] process: select_next_item | memory: 139.7MB | cpu_load: 0.04
+[2025-07-22 18:55:38] process: api_request_estimate_theta | memory: 139.7MB | cpu_load: 0.03
+[2025-07-22 18:55:38] process: estimate_theta_MAP | memory: 139.7MB | cpu_load: 0.05
+[2025-07-22 18:55:39] process: api_request_stopping_criteria | memory: 139.8MB | cpu_load: 0.04
+[2025-07-22 18:55:39] process: check_stopping_criteria | memory: 139.8MB | cpu_load: 0.05
+[2025-07-22 18:55:39] process: api_request_select_item | memory: 139.8MB | cpu_load: 0.08
+[2025-07-22 18:55:39] process: select_next_item | memory: 139.8MB | cpu_load: 0.04
+[2025-07-22 18:55:41] process: api_request_estimate_theta | memory: 139.8MB | cpu_load: 0.03
+[2025-07-22 18:55:41] process: estimate_theta_MAP | memory: 139.8MB | cpu_load: 0.05
+[2025-07-22 18:55:41] process: api_request_stopping_criteria | memory: 139.8MB | cpu_load: 0.07
+[2025-07-22 18:55:42] process: check_stopping_criteria | memory: 139.8MB | cpu_load: 0.04
+[2025-07-22 18:55:42] process: api_request_select_item | memory: 139.8MB | cpu_load: 0.03
+[2025-07-22 18:55:42] process: select_next_item | memory: 139.8MB | cpu_load: 0.04
+[2025-07-22 18:55:44] process: api_request_estimate_theta | memory: 139.8MB | cpu_load: 0.02
+[2025-07-22 18:55:44] process: estimate_theta_MAP | memory: 139.8MB | cpu_load: 0.04
+[2025-07-22 18:55:45] process: api_request_stopping_criteria | memory: 139.8MB | cpu_load: 0.03
+[2025-07-22 18:55:45] process: check_stopping_criteria | memory: 139.8MB | cpu_load: 0.06
+[2025-07-22 18:55:45] process: api_request_select_item | memory: 139.8MB | cpu_load: 0.03
+[2025-07-22 18:55:45] process: select_next_item | memory: 139.8MB | cpu_load: 0.06
+[2025-07-22 18:55:47] process: api_request_estimate_theta | memory: 139.8MB | cpu_load: 0.05
+[2025-07-22 18:55:47] process: estimate_theta_MAP | memory: 139.8MB | cpu_load: 0.04
+[2025-07-22 18:55:47] process: api_request_stopping_criteria | memory: 139.8MB | cpu_load: 0.03
+[2025-07-22 18:55:47] process: check_stopping_criteria | memory: 139.8MB | cpu_load: 0.06
+[2025-07-22 18:55:47] process: api_request_select_item | memory: 139.8MB | cpu_load: 0.05
+[2025-07-22 18:55:48] process: select_next_item | memory: 139.8MB | cpu_load: 0.04
+[2025-07-22 18:55:50] process: api_request_estimate_theta | memory: 139.8MB | cpu_load: 0.05
+[2025-07-22 18:55:50] process: estimate_theta_MAP | memory: 139.8MB | cpu_load: 0.04
+[2025-07-22 18:55:50] process: api_request_stopping_criteria | memory: 139.8MB | cpu_load: 0.05
+[2025-07-22 18:55:50] process: check_stopping_criteria | memory: 139.8MB | cpu_load: 0.04
+[2025-07-22 18:55:50] process: api_request_select_item | memory: 139.8MB | cpu_load: 0.05
+[2025-07-22 18:55:51] process: select_next_item | memory: 139.8MB | cpu_load: 0.06
+[2025-07-22 18:55:52] process: api_request_estimate_theta | memory: 139.8MB | cpu_load: 0.06
+[2025-07-22 18:55:52] process: estimate_theta_MAP | memory: 139.8MB | cpu_load: 0.04
+[2025-07-22 18:55:53] process: api_request_stopping_criteria | memory: 139.8MB | cpu_load: 0.05
+[2025-07-22 18:55:53] process: check_stopping_criteria | memory: 139.8MB | cpu_load: 0.06
+[2025-07-22 18:55:53] process: api_request_select_item | memory: 139.8MB | cpu_load: 0.04
+[2025-07-22 18:55:53] process: select_next_item | memory: 139.8MB | cpu_load: 0.05
+[2025-07-22 18:55:55] process: api_request_estimate_theta | memory: 139.8MB | cpu_load: 0.09
+[2025-07-22 18:55:55] process: estimate_theta_MAP | memory: 139.8MB | cpu_load: 0.08
+[2025-07-22 18:55:56] process: api_request_stopping_criteria | memory: 139.8MB | cpu_load: 0.04
+[2025-07-22 18:55:56] process: check_stopping_criteria | memory: 139.8MB | cpu_load: 0.03
+[2025-07-22 18:55:56] process: api_request_select_item | memory: 139.8MB | cpu_load: 0.04
+[2025-07-22 18:55:56] process: select_next_item | memory: 139.8MB | cpu_load: 0.08
+[2025-07-22 18:55:58] process: api_request_estimate_theta | memory: 139.8MB | cpu_load: 0.05
+[2025-07-22 18:55:58] process: estimate_theta_MAP | memory: 139.8MB | cpu_load: 0.03
+[2025-07-22 18:55:58] process: api_request_stopping_criteria | memory: 139.8MB | cpu_load: 0.04
+[2025-07-22 18:55:58] process: check_stopping_criteria | memory: 139.8MB | cpu_load: 0.04
+[2025-07-22 18:55:59] process: api_request_select_item | memory: 139.8MB | cpu_load: 0.04
+[2025-07-22 18:55:59] process: select_next_item | memory: 139.8MB | cpu_load: 0.02
+[2025-07-22 18:56:01] process: api_request_estimate_theta | memory: 139.8MB | cpu_load: 0.04
+[2025-07-22 18:56:01] process: estimate_theta_MAP | memory: 139.9MB | cpu_load: 0.02
+[2025-07-22 18:56:01] process: api_request_stopping_criteria | memory: 139.8MB | cpu_load: 0.04
+[2025-07-22 18:56:01] process: check_stopping_criteria | memory: 139.9MB | cpu_load: 0.03
+[2025-07-22 18:56:01] process: final_scoring | memory: 139.8MB | cpu_load: 0.06
+[2025-07-22 18:56:01] process: estimate_theta_EAP | memory: 139.9MB | cpu_load: 0.04
+[2025-07-22 18:56:02] process: calculate_score | memory: 139.9MB | cpu_load: 0.04
+[2025-07-22 19:04:32] process: start_CAT | memory: 138.0MB | cpu_load: 0.00
+[2025-07-22 19:05:54] process: api_request_select_item | memory: 139.9MB | cpu_load: 0.07
+[2025-07-22 19:05:54] process: select_next_item | memory: 139.9MB | cpu_load: 0.01
+[2025-07-22 19:05:56] process: api_request_estimate_theta | memory: 139.9MB | cpu_load: 0.00
+[2025-07-22 19:05:56] process: estimate_theta_MAP | memory: 139.9MB | cpu_load: 0.04
+[2025-07-22 19:05:57] process: api_request_stopping_criteria | memory: 139.9MB | cpu_load: 0.00
+[2025-07-22 19:05:57] process: check_stopping_criteria | memory: 139.9MB | cpu_load: 0.02
+[2025-07-22 19:05:57] process: api_request_select_item | memory: 139.9MB | cpu_load: 0.09
+[2025-07-22 19:05:57] process: select_next_item | memory: 139.9MB | cpu_load: 0.07
+[2025-07-22 19:06:01] process: api_request_estimate_theta | memory: 139.9MB | cpu_load: 0.10
+[2025-07-22 19:06:01] process: estimate_theta_MAP | memory: 139.9MB | cpu_load: 0.02
+[2025-07-22 19:06:01] process: api_request_stopping_criteria | memory: 139.9MB | cpu_load: 0.04
+[2025-07-22 19:06:02] process: check_stopping_criteria | memory: 139.9MB | cpu_load: 0.05
+[2025-07-22 19:06:02] process: api_request_select_item | memory: 139.9MB | cpu_load: 0.01
+[2025-07-22 19:06:02] process: select_next_item | memory: 139.9MB | cpu_load: 0.03
+[2025-07-22 19:06:04] process: api_request_estimate_theta | memory: 139.9MB | cpu_load: 0.10
+[2025-07-22 19:06:04] process: estimate_theta_MAP | memory: 139.9MB | cpu_load: 0.12
+[2025-07-22 19:06:05] process: api_request_stopping_criteria | memory: 139.9MB | cpu_load: 0.08
+[2025-07-22 19:06:05] process: check_stopping_criteria | memory: 139.9MB | cpu_load: 0.11
+[2025-07-22 19:06:06] process: api_request_select_item | memory: 139.9MB | cpu_load: 0.01
+[2025-07-22 19:06:06] process: select_next_item | memory: 139.9MB | cpu_load: 0.07
+[2025-07-22 19:06:08] process: api_request_estimate_theta | memory: 140.0MB | cpu_load: 0.05
+[2025-07-22 19:06:08] process: estimate_theta_MAP | memory: 140.0MB | cpu_load: 0.01
+[2025-07-22 19:06:09] process: api_request_stopping_criteria | memory: 140.0MB | cpu_load: 0.02
+[2025-07-22 19:06:09] process: check_stopping_criteria | memory: 140.0MB | cpu_load: 0.02
+[2025-07-22 19:06:09] process: api_request_select_item | memory: 140.0MB | cpu_load: 0.05
+[2025-07-22 19:06:09] process: select_next_item | memory: 140.0MB | cpu_load: 0.06
+[2025-07-22 19:06:11] process: api_request_estimate_theta | memory: 140.0MB | cpu_load: 0.02
+[2025-07-22 19:06:11] process: estimate_theta_MAP | memory: 140.0MB | cpu_load: 0.03
+[2025-07-22 19:06:12] process: api_request_stopping_criteria | memory: 140.0MB | cpu_load: 0.02
+[2025-07-22 19:06:12] process: check_stopping_criteria | memory: 140.0MB | cpu_load: 0.09
+[2025-07-22 19:06:12] process: api_request_select_item | memory: 140.0MB | cpu_load: 0.01
+[2025-07-22 19:06:12] process: select_next_item | memory: 140.0MB | cpu_load: 0.02
+[2025-07-22 19:06:14] process: api_request_estimate_theta | memory: 140.0MB | cpu_load: 0.04
+[2025-07-22 19:06:14] process: estimate_theta_MAP | memory: 140.0MB | cpu_load: 0.06
+[2025-07-22 19:06:15] process: api_request_stopping_criteria | memory: 140.0MB | cpu_load: 0.00
+[2025-07-22 19:06:15] process: check_stopping_criteria | memory: 140.0MB | cpu_load: 0.07
+[2025-07-22 19:06:15] process: api_request_select_item | memory: 140.0MB | cpu_load: 0.04
+[2025-07-22 19:06:15] process: select_next_item | memory: 140.0MB | cpu_load: 0.02
+[2025-07-22 19:06:17] process: api_request_estimate_theta | memory: 140.0MB | cpu_load: 0.02
+[2025-07-22 19:06:17] process: estimate_theta_MAP | memory: 140.0MB | cpu_load: 0.05
+[2025-07-22 19:06:17] process: api_request_stopping_criteria | memory: 140.0MB | cpu_load: 0.02
+[2025-07-22 19:06:17] process: check_stopping_criteria | memory: 140.0MB | cpu_load: 0.05
+[2025-07-22 19:06:18] process: api_request_select_item | memory: 140.0MB | cpu_load: 0.04
+[2025-07-22 19:06:18] process: select_next_item | memory: 140.0MB | cpu_load: 0.01
+[2025-07-22 19:06:20] process: api_request_estimate_theta | memory: 140.0MB | cpu_load: 0.03
+[2025-07-22 19:06:20] process: estimate_theta_MAP | memory: 140.0MB | cpu_load: 0.06
+[2025-07-22 19:06:20] process: api_request_stopping_criteria | memory: 140.0MB | cpu_load: 0.00
+[2025-07-22 19:06:20] process: check_stopping_criteria | memory: 140.0MB | cpu_load: 0.03
+[2025-07-22 19:06:21] process: api_request_select_item | memory: 140.0MB | cpu_load: 0.02
+[2025-07-22 19:06:21] process: select_next_item | memory: 140.0MB | cpu_load: 0.03
+[2025-07-22 19:06:22] process: api_request_estimate_theta | memory: 140.0MB | cpu_load: 0.02
+[2025-07-22 19:06:22] process: estimate_theta_MAP | memory: 140.0MB | cpu_load: 0.04
+[2025-07-22 19:06:23] process: api_request_stopping_criteria | memory: 140.0MB | cpu_load: 0.04
+[2025-07-22 19:06:23] process: check_stopping_criteria | memory: 140.0MB | cpu_load: 0.04
+[2025-07-22 19:06:23] process: api_request_select_item | memory: 140.0MB | cpu_load: 0.02
+[2025-07-22 19:06:23] process: select_next_item | memory: 140.0MB | cpu_load: 0.06
+[2025-07-22 19:06:25] process: api_request_estimate_theta | memory: 140.0MB | cpu_load: 0.04
+[2025-07-22 19:06:25] process: estimate_theta_MAP | memory: 140.0MB | cpu_load: 0.01
+[2025-07-22 19:06:26] process: api_request_stopping_criteria | memory: 140.0MB | cpu_load: 0.01
+[2025-07-22 19:06:26] process: check_stopping_criteria | memory: 140.0MB | cpu_load: 0.04
+[2025-07-22 19:06:26] process: final_scoring | memory: 140.0MB | cpu_load: 0.01
+[2025-07-22 19:06:26] process: estimate_theta_EAP | memory: 140.0MB | cpu_load: 0.04
+[2025-07-22 19:06:26] process: calculate_score | memory: 140.0MB | cpu_load: 0.01
+[2025-07-22 19:08:19] process: api_request_select_item | memory: 131.9MB | cpu_load: 0.01
+[2025-07-22 19:08:19] process: select_next_item | memory: 131.9MB | cpu_load: 0.00
+[2025-07-22 19:08:21] process: api_request_estimate_theta | memory: 131.9MB | cpu_load: 0.01
+[2025-07-22 19:08:21] process: estimate_theta_MAP | memory: 131.9MB | cpu_load: 0.06
+[2025-07-22 19:08:21] process: api_request_stopping_criteria | memory: 131.9MB | cpu_load: 0.05
+[2025-07-22 19:08:21] process: check_stopping_criteria | memory: 131.9MB | cpu_load: 0.02
+[2025-07-22 19:08:22] process: api_request_select_item | memory: 131.9MB | cpu_load: 0.04
+[2025-07-22 19:08:22] process: select_next_item | memory: 131.9MB | cpu_load: 0.02
+[2025-07-22 19:08:24] process: api_request_estimate_theta | memory: 131.9MB | cpu_load: 0.08
+[2025-07-22 19:08:24] process: estimate_theta_MAP | memory: 131.9MB | cpu_load: 0.00
+[2025-07-22 19:08:24] process: api_request_stopping_criteria | memory: 131.9MB | cpu_load: 0.05
+[2025-07-22 19:08:24] process: check_stopping_criteria | memory: 131.9MB | cpu_load: 0.00
+[2025-07-22 19:08:25] process: api_request_select_item | memory: 131.9MB | cpu_load: 0.00
+[2025-07-22 19:08:25] process: select_next_item | memory: 131.9MB | cpu_load: 0.04
+[2025-07-22 19:08:27] process: api_request_estimate_theta | memory: 131.9MB | cpu_load: 0.00
+[2025-07-22 19:08:27] process: estimate_theta_MAP | memory: 131.9MB | cpu_load: 0.04
+[2025-07-22 19:08:27] process: api_request_stopping_criteria | memory: 131.9MB | cpu_load: 0.00
+[2025-07-22 19:08:27] process: check_stopping_criteria | memory: 131.9MB | cpu_load: 0.04
+[2025-07-22 19:08:28] process: api_request_select_item | memory: 131.9MB | cpu_load: 0.07
+[2025-07-22 19:08:28] process: select_next_item | memory: 131.9MB | cpu_load: 0.00
+[2025-07-22 19:08:30] process: api_request_estimate_theta | memory: 131.9MB | cpu_load: 0.01
+[2025-07-22 19:08:30] process: estimate_theta_MAP | memory: 131.9MB | cpu_load: 0.06
+[2025-07-22 19:08:30] process: api_request_stopping_criteria | memory: 131.9MB | cpu_load: 0.01
+[2025-07-22 19:08:30] process: check_stopping_criteria | memory: 131.9MB | cpu_load: 0.01
+[2025-07-22 19:08:30] process: api_request_select_item | memory: 131.9MB | cpu_load: 0.05
+[2025-07-22 19:08:30] process: select_next_item | memory: 131.9MB | cpu_load: 0.01
+[2025-07-22 19:08:32] process: api_request_estimate_theta | memory: 131.9MB | cpu_load: 0.02
+[2025-07-22 19:08:32] process: estimate_theta_MAP | memory: 131.9MB | cpu_load: 0.01
+[2025-07-22 19:08:32] process: api_request_stopping_criteria | memory: 131.9MB | cpu_load: 0.06
+[2025-07-22 19:08:33] process: check_stopping_criteria | memory: 131.9MB | cpu_load: 0.03
+[2025-07-22 19:08:33] process: api_request_select_item | memory: 131.9MB | cpu_load: 0.03
+[2025-07-22 19:08:33] process: select_next_item | memory: 131.9MB | cpu_load: 0.04
+[2025-07-22 19:08:35] process: api_request_estimate_theta | memory: 131.9MB | cpu_load: 0.00
+[2025-07-22 19:08:35] process: estimate_theta_MAP | memory: 131.9MB | cpu_load: 0.03
+[2025-07-22 19:08:35] process: api_request_stopping_criteria | memory: 131.9MB | cpu_load: 0.00
+[2025-07-22 19:08:35] process: check_stopping_criteria | memory: 131.9MB | cpu_load: 0.05
+[2025-07-22 19:08:36] process: api_request_select_item | memory: 131.9MB | cpu_load: 0.01
+[2025-07-22 19:08:36] process: select_next_item | memory: 131.9MB | cpu_load: 0.01
+[2025-07-22 19:08:37] process: api_request_estimate_theta | memory: 131.9MB | cpu_load: 0.00
+[2025-07-22 19:08:37] process: estimate_theta_MAP | memory: 131.9MB | cpu_load: 0.01
+[2025-07-22 19:08:38] process: api_request_stopping_criteria | memory: 131.9MB | cpu_load: 0.01
+[2025-07-22 19:08:38] process: check_stopping_criteria | memory: 131.9MB | cpu_load: 0.04
+[2025-07-22 19:08:38] process: api_request_select_item | memory: 131.9MB | cpu_load: 0.01
+[2025-07-22 19:08:38] process: select_next_item | memory: 131.9MB | cpu_load: 0.01
+[2025-07-22 19:08:40] process: api_request_estimate_theta | memory: 131.9MB | cpu_load: 0.03
+[2025-07-22 19:08:40] process: estimate_theta_MAP | memory: 131.9MB | cpu_load: 0.02
+[2025-07-22 19:08:41] process: api_request_stopping_criteria | memory: 131.9MB | cpu_load: 0.03
+[2025-07-22 19:08:41] process: check_stopping_criteria | memory: 131.9MB | cpu_load: 0.00
+[2025-07-22 19:08:41] process: final_scoring | memory: 131.9MB | cpu_load: 0.01
+[2025-07-22 19:08:41] process: estimate_theta_EAP | memory: 131.9MB | cpu_load: 0.01
+[2025-07-22 19:08:41] process: calculate_score | memory: 131.9MB | cpu_load: 0.02
+[2025-07-28 09:05:35] process: start_CAT | memory: 138.0MB | cpu_load: 0.04
+[2025-07-28 09:06:29] process: api_request_select_item | memory: 139.3MB | cpu_load: 0.05
+[2025-07-28 09:06:29] process: select_next_item | memory: 139.3MB | cpu_load: 0.04
+[2025-07-28 09:06:35] process: api_request_estimate_theta | memory: 139.3MB | cpu_load: 0.04
+[2025-07-28 09:06:35] process: estimate_theta_MAP | memory: 139.3MB | cpu_load: 0.02
+[2025-07-28 09:06:36] process: api_request_stopping_criteria | memory: 139.4MB | cpu_load: 0.05
+[2025-07-28 09:06:36] process: check_stopping_criteria | memory: 139.4MB | cpu_load: 0.02
+[2025-07-28 09:06:36] process: api_request_select_item | memory: 139.4MB | cpu_load: 0.01
+[2025-07-28 09:06:36] process: select_next_item | memory: 139.4MB | cpu_load: 0.03
+[2025-07-28 09:06:39] process: api_request_estimate_theta | memory: 139.4MB | cpu_load: 0.00
+[2025-07-28 09:06:39] process: estimate_theta_MAP | memory: 139.4MB | cpu_load: 0.04
+[2025-07-28 09:06:39] process: api_request_stopping_criteria | memory: 139.4MB | cpu_load: 0.00
+[2025-07-28 09:06:39] process: check_stopping_criteria | memory: 139.4MB | cpu_load: 0.01
+[2025-07-28 09:06:40] process: api_request_select_item | memory: 139.4MB | cpu_load: 0.03
+[2025-07-28 09:06:40] process: select_next_item | memory: 139.4MB | cpu_load: 0.01
+[2025-07-28 09:06:42] process: api_request_estimate_theta | memory: 139.4MB | cpu_load: 0.03
+[2025-07-28 09:06:42] process: estimate_theta_MAP | memory: 139.4MB | cpu_load: 0.00
+[2025-07-28 09:06:43] process: api_request_stopping_criteria | memory: 139.4MB | cpu_load: 0.03
+[2025-07-28 09:06:43] process: check_stopping_criteria | memory: 139.4MB | cpu_load: 0.01
+[2025-07-28 09:06:43] process: api_request_select_item | memory: 139.4MB | cpu_load: 0.01
+[2025-07-28 09:06:43] process: select_next_item | memory: 139.4MB | cpu_load: 0.03
+[2025-07-28 09:06:45] process: api_request_estimate_theta | memory: 139.5MB | cpu_load: 0.01
+[2025-07-28 09:06:45] process: estimate_theta_MAP | memory: 139.5MB | cpu_load: 0.05
+[2025-07-28 09:06:46] process: api_request_stopping_criteria | memory: 139.5MB | cpu_load: 0.00
+[2025-07-28 09:06:46] process: check_stopping_criteria | memory: 139.5MB | cpu_load: 0.05
+[2025-07-28 09:06:46] process: api_request_select_item | memory: 139.5MB | cpu_load: 0.02
+[2025-07-28 09:06:46] process: select_next_item | memory: 139.5MB | cpu_load: 0.01
+[2025-07-28 09:06:49] process: api_request_estimate_theta | memory: 139.5MB | cpu_load: 0.03
+[2025-07-28 09:06:49] process: estimate_theta_MAP | memory: 139.5MB | cpu_load: 0.03
+[2025-07-28 09:06:49] process: api_request_stopping_criteria | memory: 139.5MB | cpu_load: 0.00
+[2025-07-28 09:06:50] process: check_stopping_criteria | memory: 139.5MB | cpu_load: 0.03
+[2025-07-28 09:06:50] process: api_request_select_item | memory: 139.5MB | cpu_load: 0.03
+[2025-07-28 09:06:50] process: select_next_item | memory: 139.5MB | cpu_load: 0.01
+[2025-07-28 09:06:52] process: api_request_estimate_theta | memory: 139.5MB | cpu_load: 0.06
+[2025-07-28 09:06:53] process: estimate_theta_MAP | memory: 139.5MB | cpu_load: 0.01
+[2025-07-28 09:06:53] process: api_request_stopping_criteria | memory: 139.5MB | cpu_load: 0.02
+[2025-07-28 09:06:53] process: check_stopping_criteria | memory: 139.5MB | cpu_load: 0.04
+[2025-07-28 09:06:53] process: api_request_select_item | memory: 139.5MB | cpu_load: 0.01
+[2025-07-28 09:06:53] process: select_next_item | memory: 139.5MB | cpu_load: 0.03
+[2025-07-28 09:10:43] process: api_request_select_item | memory: 139.6MB | cpu_load: 0.02
+[2025-07-28 09:10:43] process: select_next_item | memory: 139.6MB | cpu_load: 0.00
+[2025-07-28 09:10:46] process: api_request_estimate_theta | memory: 139.6MB | cpu_load: 0.05
+[2025-07-28 09:10:46] process: estimate_theta_MAP | memory: 139.6MB | cpu_load: 0.13
+[2025-07-28 09:10:47] process: api_request_stopping_criteria | memory: 139.6MB | cpu_load: 0.05
+[2025-07-28 09:10:47] process: check_stopping_criteria | memory: 139.6MB | cpu_load: 0.12
+[2025-07-28 09:10:47] process: api_request_select_item | memory: 139.6MB | cpu_load: 0.04
+[2025-07-28 09:10:47] process: select_next_item | memory: 139.6MB | cpu_load: 0.03
+[2025-07-28 09:10:49] process: api_request_estimate_theta | memory: 139.6MB | cpu_load: 0.05
+[2025-07-28 09:10:49] process: estimate_theta_MAP | memory: 139.6MB | cpu_load: 0.07
+[2025-07-28 09:10:49] process: api_request_stopping_criteria | memory: 139.6MB | cpu_load: 0.06
+[2025-07-28 09:10:49] process: check_stopping_criteria | memory: 139.6MB | cpu_load: 0.09
+[2025-07-28 09:10:50] process: api_request_select_item | memory: 139.6MB | cpu_load: 0.07
+[2025-07-28 09:10:50] process: select_next_item | memory: 139.6MB | cpu_load: 0.07
+[2025-07-28 09:11:56] process: api_request_estimate_theta | memory: 139.6MB | cpu_load: 0.07
+[2025-07-28 09:11:56] process: estimate_theta_MAP | memory: 139.6MB | cpu_load: 0.08
+[2025-07-28 09:11:56] process: api_request_stopping_criteria | memory: 139.6MB | cpu_load: 0.03
+[2025-07-28 09:11:56] process: check_stopping_criteria | memory: 139.6MB | cpu_load: 0.04
+[2025-07-28 09:11:57] process: api_request_select_item | memory: 139.6MB | cpu_load: 0.01
+[2025-07-28 09:11:57] process: select_next_item | memory: 139.6MB | cpu_load: 0.05
+[2025-07-28 09:12:00] process: api_request_estimate_theta | memory: 139.7MB | cpu_load: 0.02
+[2025-07-28 09:12:00] process: estimate_theta_MAP | memory: 139.7MB | cpu_load: 0.04
+[2025-07-28 09:12:00] process: api_request_stopping_criteria | memory: 139.7MB | cpu_load: 0.03
+[2025-07-28 09:12:00] process: check_stopping_criteria | memory: 139.7MB | cpu_load: 0.03
+[2025-07-28 09:12:00] process: api_request_select_item | memory: 139.7MB | cpu_load: 0.02
+[2025-07-28 09:12:00] process: select_next_item | memory: 139.7MB | cpu_load: 0.01
+[2025-07-28 09:12:03] process: api_request_estimate_theta | memory: 139.7MB | cpu_load: 0.00
+[2025-07-28 09:12:03] process: estimate_theta_MAP | memory: 139.7MB | cpu_load: 0.04
+[2025-07-28 09:12:03] process: api_request_stopping_criteria | memory: 139.7MB | cpu_load: 0.03
+[2025-07-28 09:12:03] process: check_stopping_criteria | memory: 139.7MB | cpu_load: 0.05
+[2025-07-28 09:12:04] process: api_request_select_item | memory: 139.7MB | cpu_load: 0.01
+[2025-07-28 09:12:04] process: select_next_item | memory: 139.7MB | cpu_load: 0.00
+[2025-07-28 09:12:06] process: api_request_estimate_theta | memory: 139.7MB | cpu_load: 0.01
+[2025-07-28 09:12:06] process: estimate_theta_MAP | memory: 139.7MB | cpu_load: 0.04
+[2025-07-28 09:12:06] process: api_request_stopping_criteria | memory: 139.7MB | cpu_load: 0.03
+[2025-07-28 09:12:07] process: check_stopping_criteria | memory: 139.7MB | cpu_load: 0.01
+[2025-07-28 09:12:07] process: api_request_select_item | memory: 139.7MB | cpu_load: 0.04
+[2025-07-28 09:12:07] process: select_next_item | memory: 139.7MB | cpu_load: 0.00
+[2025-07-28 09:12:09] process: api_request_estimate_theta | memory: 139.7MB | cpu_load: 0.00
+[2025-07-28 09:12:09] process: estimate_theta_MAP | memory: 139.7MB | cpu_load: 0.00
+[2025-07-28 09:12:10] process: api_request_stopping_criteria | memory: 139.7MB | cpu_load: 0.04
+[2025-07-28 09:12:10] process: check_stopping_criteria | memory: 139.7MB | cpu_load: 0.01
+[2025-07-28 09:12:10] process: api_request_select_item | memory: 139.7MB | cpu_load: 0.03
+[2025-07-28 09:12:10] process: select_next_item | memory: 139.7MB | cpu_load: 0.01
+[2025-07-28 09:12:13] process: api_request_estimate_theta | memory: 139.7MB | cpu_load: 0.01
+[2025-07-28 09:12:13] process: estimate_theta_MAP | memory: 139.7MB | cpu_load: 0.02
+[2025-07-28 09:12:14] process: api_request_stopping_criteria | memory: 139.7MB | cpu_load: 0.00
+[2025-07-28 09:12:14] process: check_stopping_criteria | memory: 139.7MB | cpu_load: 0.03
+[2025-07-28 09:12:14] process: api_request_select_item | memory: 139.7MB | cpu_load: 0.04
+[2025-07-28 09:12:14] process: select_next_item | memory: 139.7MB | cpu_load: 0.01
+[2025-07-28 09:12:16] process: api_request_estimate_theta | memory: 139.7MB | cpu_load: 0.02
+[2025-07-28 09:12:16] process: estimate_theta_MAP | memory: 139.7MB | cpu_load: 0.01
+[2025-07-28 09:12:16] process: api_request_stopping_criteria | memory: 139.7MB | cpu_load: 0.01
+[2025-07-28 09:12:17] process: check_stopping_criteria | memory: 139.7MB | cpu_load: 0.00
+[2025-07-28 09:12:17] process: api_request_select_item | memory: 139.7MB | cpu_load: 0.01
+[2025-07-28 09:12:17] process: select_next_item | memory: 139.7MB | cpu_load: 0.06
+[2025-07-28 09:12:20] process: api_request_estimate_theta | memory: 139.7MB | cpu_load: 0.05
+[2025-07-28 09:12:20] process: estimate_theta_MAP | memory: 139.7MB | cpu_load: 0.01
+[2025-07-28 09:12:20] process: api_request_stopping_criteria | memory: 139.7MB | cpu_load: 0.03
+[2025-07-28 09:12:21] process: check_stopping_criteria | memory: 139.7MB | cpu_load: 0.03
+[2025-07-28 09:12:21] process: final_scoring | memory: 139.7MB | cpu_load: 0.01
+[2025-07-28 09:12:21] process: estimate_theta_EAP | memory: 139.7MB | cpu_load: 0.04
+[2025-07-28 09:12:21] process: calculate_score | memory: 139.7MB | cpu_load: 0.00
+[2025-07-28 09:18:34] process: api_request_select_item | memory: 139.7MB | cpu_load: 0.03
+[2025-07-28 09:18:34] process: select_next_item | memory: 139.7MB | cpu_load: 0.00
+[2025-07-28 09:18:36] process: api_request_estimate_theta | memory: 139.7MB | cpu_load: 0.03
+[2025-07-28 09:18:37] process: estimate_theta_MAP | memory: 139.7MB | cpu_load: 0.06
+[2025-07-28 09:18:37] process: api_request_stopping_criteria | memory: 139.8MB | cpu_load: 0.01
+[2025-07-28 09:18:37] process: check_stopping_criteria | memory: 139.8MB | cpu_load: 0.03
+[2025-07-28 09:18:37] process: api_request_select_item | memory: 139.8MB | cpu_load: 0.01
+[2025-07-28 09:18:37] process: select_next_item | memory: 139.8MB | cpu_load: 0.01
+[2025-07-28 09:23:04] process: api_request_select_item | memory: 139.8MB | cpu_load: 0.05
+[2025-07-28 09:23:04] process: select_next_item | memory: 139.8MB | cpu_load: 0.03
+[2025-07-28 09:23:06] process: api_request_estimate_theta | memory: 139.8MB | cpu_load: 0.05
+[2025-07-28 09:23:06] process: estimate_theta_MAP | memory: 139.8MB | cpu_load: 0.05
+[2025-07-28 09:23:06] process: api_request_stopping_criteria | memory: 139.8MB | cpu_load: 0.01
+[2025-07-28 09:23:07] process: check_stopping_criteria | memory: 139.8MB | cpu_load: 0.04
+[2025-07-28 09:23:07] process: api_request_select_item | memory: 139.8MB | cpu_load: 0.08
+[2025-07-28 09:23:07] process: select_next_item | memory: 139.8MB | cpu_load: 0.02
+[2025-07-28 09:23:09] process: api_request_estimate_theta | memory: 139.8MB | cpu_load: 0.02
+[2025-07-28 09:23:09] process: estimate_theta_MAP | memory: 139.8MB | cpu_load: 0.01
+[2025-07-28 09:23:09] process: api_request_stopping_criteria | memory: 139.8MB | cpu_load: 0.02
+[2025-07-28 09:23:09] process: check_stopping_criteria | memory: 139.8MB | cpu_load: 0.04
+[2025-07-28 09:23:10] process: api_request_select_item | memory: 139.8MB | cpu_load: 0.09
+[2025-07-28 09:23:10] process: select_next_item | memory: 139.8MB | cpu_load: 0.05
+[2025-07-28 09:23:12] process: api_request_estimate_theta | memory: 139.8MB | cpu_load: 0.00
+[2025-07-28 09:23:12] process: estimate_theta_MAP | memory: 139.8MB | cpu_load: 0.05
+[2025-07-28 09:23:12] process: api_request_stopping_criteria | memory: 139.8MB | cpu_load: 0.02
+[2025-07-28 09:23:12] process: check_stopping_criteria | memory: 139.8MB | cpu_load: 0.04
+[2025-07-28 09:23:13] process: api_request_select_item | memory: 139.8MB | cpu_load: 0.01
+[2025-07-28 09:23:13] process: select_next_item | memory: 139.8MB | cpu_load: 0.02
+[2025-07-28 09:35:37] process: api_request_select_item | memory: 139.8MB | cpu_load: 0.09
+[2025-07-28 09:35:37] process: select_next_item | memory: 139.8MB | cpu_load: 0.05
+[2025-07-28 09:35:39] process: api_request_estimate_theta | memory: 139.8MB | cpu_load: 0.05
+[2025-07-28 09:35:39] process: estimate_theta_MAP | memory: 139.8MB | cpu_load: 0.03
+[2025-07-28 09:35:40] process: api_request_stopping_criteria | memory: 139.8MB | cpu_load: 0.02
+[2025-07-28 09:35:40] process: check_stopping_criteria | memory: 139.9MB | cpu_load: 0.04
+[2025-07-28 09:35:40] process: api_request_select_item | memory: 139.8MB | cpu_load: 0.01
+[2025-07-28 09:35:40] process: select_next_item | memory: 139.8MB | cpu_load: 0.04
+[2025-07-28 09:39:20] process: api_request_select_item | memory: 139.8MB | cpu_load: 0.05
+[2025-07-28 09:39:20] process: select_next_item | memory: 139.8MB | cpu_load: 0.07
+[2025-07-28 09:42:07] process: api_request_select_item | memory: 139.8MB | cpu_load: 0.02
+[2025-07-28 09:42:07] process: select_next_item | memory: 139.9MB | cpu_load: 0.01
+[2025-07-28 09:42:09] process: api_request_estimate_theta | memory: 139.9MB | cpu_load: 0.05
+[2025-07-28 09:42:09] process: estimate_theta_MAP | memory: 139.9MB | cpu_load: 0.04
+[2025-07-28 09:42:09] process: api_request_stopping_criteria | memory: 139.9MB | cpu_load: 0.04
+[2025-07-28 09:42:10] process: check_stopping_criteria | memory: 139.9MB | cpu_load: 0.01
+[2025-07-28 09:42:10] process: api_request_select_item | memory: 139.9MB | cpu_load: 0.02
+[2025-07-28 09:42:10] process: select_next_item | memory: 139.9MB | cpu_load: 0.03
+[2025-07-28 09:42:12] process: api_request_estimate_theta | memory: 139.9MB | cpu_load: 0.09
+[2025-07-28 09:42:12] process: estimate_theta_MAP | memory: 139.9MB | cpu_load: 0.06
+[2025-07-28 09:42:12] process: api_request_stopping_criteria | memory: 139.9MB | cpu_load: 0.08
+[2025-07-28 09:42:12] process: check_stopping_criteria | memory: 139.9MB | cpu_load: 0.04
+[2025-07-28 09:42:13] process: api_request_select_item | memory: 139.9MB | cpu_load: 0.04
+[2025-07-28 09:42:13] process: select_next_item | memory: 139.9MB | cpu_load: 0.09
+[2025-07-28 09:42:15] process: api_request_estimate_theta | memory: 139.9MB | cpu_load: 0.07
+[2025-07-28 09:42:15] process: estimate_theta_MAP | memory: 139.9MB | cpu_load: 0.05
+[2025-07-28 09:42:15] process: api_request_stopping_criteria | memory: 139.9MB | cpu_load: 0.04
+[2025-07-28 09:42:15] process: check_stopping_criteria | memory: 139.9MB | cpu_load: 0.06
+[2025-07-28 09:42:15] process: api_request_select_item | memory: 139.9MB | cpu_load: 0.07
+[2025-07-28 09:42:16] process: select_next_item | memory: 139.9MB | cpu_load: 0.08
+[2025-07-28 09:42:17] process: api_request_estimate_theta | memory: 139.9MB | cpu_load: 0.02
+[2025-07-28 09:42:17] process: estimate_theta_MAP | memory: 139.9MB | cpu_load: 0.03
+[2025-07-28 09:42:18] process: api_request_stopping_criteria | memory: 139.9MB | cpu_load: 0.02
+[2025-07-28 09:42:18] process: check_stopping_criteria | memory: 139.9MB | cpu_load: 0.04
+[2025-07-28 09:42:18] process: api_request_select_item | memory: 139.9MB | cpu_load: 0.05
+[2025-07-28 09:42:18] process: select_next_item | memory: 139.9MB | cpu_load: 0.01
+[2025-07-28 09:52:44] process: api_request_select_item | memory: 52.8MB | cpu_load: 0.13
+[2025-07-28 09:52:44] process: select_next_item | memory: 52.8MB | cpu_load: 0.14
+[2025-07-28 09:52:48] process: api_request_estimate_theta | memory: 52.8MB | cpu_load: 0.12
+[2025-07-28 09:52:48] process: estimate_theta_MAP | memory: 52.8MB | cpu_load: 0.13
+[2025-07-28 09:52:48] process: api_request_stopping_criteria | memory: 52.8MB | cpu_load: 0.09
+[2025-07-28 09:52:49] process: check_stopping_criteria | memory: 52.8MB | cpu_load: 0.10
+[2025-07-28 09:52:49] process: api_request_select_item | memory: 52.8MB | cpu_load: 0.09
+[2025-07-28 09:52:49] process: select_next_item | memory: 52.8MB | cpu_load: 0.10
+[2025-07-28 09:52:51] process: api_request_estimate_theta | memory: 52.8MB | cpu_load: 0.05
+[2025-07-28 09:52:51] process: estimate_theta_MAP | memory: 52.8MB | cpu_load: 0.09
+[2025-07-28 09:52:51] process: api_request_stopping_criteria | memory: 52.8MB | cpu_load: 0.09
+[2025-07-28 09:52:51] process: check_stopping_criteria | memory: 52.8MB | cpu_load: 0.09
+[2025-07-28 09:52:52] process: api_request_select_item | memory: 52.8MB | cpu_load: 0.05
+[2025-07-28 09:52:52] process: select_next_item | memory: 52.8MB | cpu_load: 0.09
+[2025-07-28 09:52:54] process: api_request_estimate_theta | memory: 52.8MB | cpu_load: 0.09
+[2025-07-28 09:52:54] process: estimate_theta_MAP | memory: 52.8MB | cpu_load: 0.10
+[2025-07-28 09:52:54] process: api_request_stopping_criteria | memory: 52.8MB | cpu_load: 0.05
+[2025-07-28 09:52:54] process: check_stopping_criteria | memory: 52.8MB | cpu_load: 0.07
+[2025-07-28 09:52:55] process: api_request_select_item | memory: 52.8MB | cpu_load: 0.10
+[2025-07-28 09:52:55] process: select_next_item | memory: 52.8MB | cpu_load: 0.09
+[2025-07-28 09:53:00] process: api_request_estimate_theta | memory: 52.8MB | cpu_load: 0.14
+[2025-07-28 09:53:00] process: estimate_theta_MAP | memory: 52.8MB | cpu_load: 0.08
+[2025-07-28 09:53:00] process: api_request_stopping_criteria | memory: 52.8MB | cpu_load: 0.12
+[2025-07-28 09:53:00] process: check_stopping_criteria | memory: 52.8MB | cpu_load: 0.11
+[2025-07-28 09:53:00] process: api_request_select_item | memory: 52.8MB | cpu_load: 0.13
+[2025-07-28 09:53:00] process: select_next_item | memory: 52.8MB | cpu_load: 0.08
+[2025-07-28 09:53:03] process: api_request_estimate_theta | memory: 52.8MB | cpu_load: 0.10
+[2025-07-28 09:53:03] process: estimate_theta_MAP | memory: 52.8MB | cpu_load: 0.08
+[2025-07-28 09:53:03] process: api_request_stopping_criteria | memory: 52.8MB | cpu_load: 0.13
+[2025-07-28 09:53:03] process: check_stopping_criteria | memory: 52.8MB | cpu_load: 0.09
+[2025-07-28 09:53:04] process: api_request_select_item | memory: 52.8MB | cpu_load: 0.14
+[2025-07-28 09:53:04] process: select_next_item | memory: 52.8MB | cpu_load: 0.10
+[2025-07-28 09:53:06] process: api_request_estimate_theta | memory: 52.8MB | cpu_load: 0.13
+[2025-07-28 09:53:06] process: estimate_theta_MAP | memory: 52.8MB | cpu_load: 0.13
+[2025-07-28 09:53:06] process: api_request_stopping_criteria | memory: 52.8MB | cpu_load: 0.07
+[2025-07-28 09:53:06] process: check_stopping_criteria | memory: 52.9MB | cpu_load: 0.15
+[2025-07-28 09:53:06] process: api_request_select_item | memory: 52.9MB | cpu_load: 0.17
+[2025-07-28 09:53:07] process: select_next_item | memory: 52.9MB | cpu_load: 0.09
+[2025-07-28 09:53:10] process: api_request_estimate_theta | memory: 52.9MB | cpu_load: 0.11
+[2025-07-28 09:53:10] process: estimate_theta_MAP | memory: 52.9MB | cpu_load: 0.10
+[2025-07-28 09:53:10] process: api_request_stopping_criteria | memory: 52.9MB | cpu_load: 0.13
+[2025-07-28 09:53:10] process: check_stopping_criteria | memory: 52.9MB | cpu_load: 0.14
+[2025-07-28 09:53:11] process: api_request_select_item | memory: 52.9MB | cpu_load: 0.12
+[2025-07-28 09:53:11] process: select_next_item | memory: 52.9MB | cpu_load: 0.11
+[2025-07-28 09:53:13] process: api_request_estimate_theta | memory: 52.9MB | cpu_load: 0.05
+[2025-07-28 09:53:13] process: estimate_theta_MAP | memory: 53.0MB | cpu_load: 0.10
+[2025-07-28 09:53:14] process: api_request_stopping_criteria | memory: 53.0MB | cpu_load: 0.08
+[2025-07-28 09:53:14] process: check_stopping_criteria | memory: 53.0MB | cpu_load: 0.10
+[2025-07-28 09:53:14] process: api_request_select_item | memory: 53.0MB | cpu_load: 0.09
+[2025-07-28 09:53:14] process: select_next_item | memory: 53.0MB | cpu_load: 0.10
+[2025-07-28 09:53:16] process: api_request_estimate_theta | memory: 53.0MB | cpu_load: 0.07
+[2025-07-28 09:53:16] process: estimate_theta_MAP | memory: 53.0MB | cpu_load: 0.07
+[2025-07-28 09:53:17] process: api_request_stopping_criteria | memory: 53.0MB | cpu_load: 0.10
+[2025-07-28 09:53:17] process: check_stopping_criteria | memory: 53.1MB | cpu_load: 0.08
+[2025-07-28 09:53:17] process: api_request_select_item | memory: 53.1MB | cpu_load: 0.03
+[2025-07-28 09:53:17] process: select_next_item | memory: 53.1MB | cpu_load: 0.02
+[2025-07-28 09:53:19] process: api_request_estimate_theta | memory: 53.1MB | cpu_load: 0.06
+[2025-07-28 09:53:19] process: estimate_theta_MAP | memory: 53.1MB | cpu_load: 0.06
+[2025-07-28 09:53:20] process: api_request_stopping_criteria | memory: 53.1MB | cpu_load: 0.06
+[2025-07-28 09:53:20] process: check_stopping_criteria | memory: 53.1MB | cpu_load: 0.06
+[2025-07-28 09:53:20] process: api_request_select_item | memory: 53.1MB | cpu_load: 0.06
+[2025-07-28 09:53:20] process: select_next_item | memory: 53.1MB | cpu_load: 0.10
+[2025-07-28 09:53:22] process: api_request_estimate_theta | memory: 53.1MB | cpu_load: 0.07
+[2025-07-28 09:53:22] process: estimate_theta_MAP | memory: 53.1MB | cpu_load: 0.12
+[2025-07-28 09:53:22] process: api_request_stopping_criteria | memory: 53.1MB | cpu_load: 0.09
+[2025-07-28 09:53:23] process: check_stopping_criteria | memory: 53.1MB | cpu_load: 0.08
+[2025-07-28 09:53:23] process: api_request_select_item | memory: 53.1MB | cpu_load: 0.10
+[2025-07-28 09:53:23] process: select_next_item | memory: 53.1MB | cpu_load: 0.10
+[2025-07-28 09:53:25] process: api_request_estimate_theta | memory: 53.1MB | cpu_load: 0.06
+[2025-07-28 09:53:25] process: estimate_theta_MAP | memory: 53.2MB | cpu_load: 0.09
+[2025-07-28 09:53:26] process: api_request_stopping_criteria | memory: 53.2MB | cpu_load: 0.14
+[2025-07-28 09:53:26] process: check_stopping_criteria | memory: 53.2MB | cpu_load: 0.15
+[2025-07-28 09:53:26] process: final_scoring | memory: 53.2MB | cpu_load: 0.15
+[2025-07-28 09:53:26] process: estimate_theta_EAP | memory: 53.2MB | cpu_load: 0.17
+[2025-07-28 09:53:26] process: calculate_score | memory: 53.2MB | cpu_load: 0.16
+[2025-07-28 09:59:51] process: start_CAT | memory: 137.7MB | cpu_load: 0.06
+[2025-07-28 09:59:57] process: api_request_select_item | memory: 53.2MB | cpu_load: 0.05
+[2025-07-28 09:59:58] process: select_next_item | memory: 53.3MB | cpu_load: 0.09
+[2025-07-28 09:59:59] process: api_request_estimate_theta | memory: 53.2MB | cpu_load: 0.06
+[2025-07-28 10:00:00] process: estimate_theta_MAP | memory: 53.2MB | cpu_load: 0.05
+[2025-07-28 10:00:00] process: api_request_stopping_criteria | memory: 53.4MB | cpu_load: 0.06
+[2025-07-28 10:00:00] process: check_stopping_criteria | memory: 53.4MB | cpu_load: 0.06
+[2025-07-28 10:00:00] process: api_request_select_item | memory: 53.4MB | cpu_load: 0.04
+[2025-07-28 10:00:00] process: select_next_item | memory: 53.4MB | cpu_load: 0.09
+[2025-07-28 10:00:10] process: api_request_estimate_theta | memory: 53.4MB | cpu_load: 0.07
+[2025-07-28 10:00:10] process: estimate_theta_MAP | memory: 53.4MB | cpu_load: 0.04
+[2025-07-28 10:00:11] process: api_request_stopping_criteria | memory: 53.4MB | cpu_load: 0.05
+[2025-07-28 10:00:11] process: check_stopping_criteria | memory: 53.4MB | cpu_load: 0.06
+[2025-07-28 10:00:11] process: api_request_select_item | memory: 53.4MB | cpu_load: 0.06
+[2025-07-28 10:00:11] process: select_next_item | memory: 53.4MB | cpu_load: 0.06
+[2025-07-28 10:00:16] process: api_request_estimate_theta | memory: 53.4MB | cpu_load: 0.06
+[2025-07-28 10:00:16] process: estimate_theta_MAP | memory: 53.4MB | cpu_load: 0.05
+[2025-07-28 10:00:16] process: api_request_stopping_criteria | memory: 53.4MB | cpu_load: 0.05
+[2025-07-28 10:00:16] process: check_stopping_criteria | memory: 53.4MB | cpu_load: 0.04
+[2025-07-28 10:00:16] process: api_request_select_item | memory: 53.4MB | cpu_load: 0.11
+[2025-07-28 10:00:17] process: select_next_item | memory: 53.4MB | cpu_load: 0.05
+[2025-07-28 10:00:20] process: api_request_estimate_theta | memory: 53.4MB | cpu_load: 0.04
+[2025-07-28 10:00:20] process: estimate_theta_MAP | memory: 53.4MB | cpu_load: 0.05
+[2025-07-28 10:00:20] process: api_request_stopping_criteria | memory: 53.4MB | cpu_load: 0.04
+[2025-07-28 10:00:20] process: check_stopping_criteria | memory: 53.4MB | cpu_load: 0.06
+[2025-07-28 10:00:20] process: api_request_select_item | memory: 53.4MB | cpu_load: 0.06
+[2025-07-28 10:00:21] process: select_next_item | memory: 53.4MB | cpu_load: 0.05
+[2025-07-28 10:00:23] process: api_request_estimate_theta | memory: 53.4MB | cpu_load: 0.05
+[2025-07-28 10:00:23] process: estimate_theta_MAP | memory: 53.4MB | cpu_load: 0.04
+[2025-07-28 10:00:23] process: api_request_stopping_criteria | memory: 53.5MB | cpu_load: 0.05
+[2025-07-28 10:00:23] process: check_stopping_criteria | memory: 53.5MB | cpu_load: 0.05
+[2025-07-28 10:00:24] process: api_request_select_item | memory: 53.5MB | cpu_load: 0.04
+[2025-07-28 10:00:24] process: select_next_item | memory: 53.5MB | cpu_load: 0.05
+[2025-07-28 10:00:26] process: api_request_estimate_theta | memory: 53.5MB | cpu_load: 0.04
+[2025-07-28 10:00:26] process: estimate_theta_MAP | memory: 53.5MB | cpu_load: 0.05
+[2025-07-28 10:00:27] process: api_request_stopping_criteria | memory: 53.5MB | cpu_load: 0.05
+[2025-07-28 10:00:27] process: check_stopping_criteria | memory: 53.5MB | cpu_load: 0.06
+[2025-07-28 10:00:27] process: api_request_select_item | memory: 53.5MB | cpu_load: 0.09
+[2025-07-28 10:00:27] process: select_next_item | memory: 53.5MB | cpu_load: 0.07
