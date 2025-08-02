@@ -288,6 +288,15 @@ class HybridCATService
             $probability = $itemData['probability'];
             $information = $itemData['fisher_information'];
             $expectedFisherInfo = $itemData['expected_fisher_information'];
+                    
+                    return [
+                        'test_completed' => true,
+                        'theta' => $finalTheta,
+                        'se' => $finalSE,
+                        'final_score' => $finalScore,
+                        'stop_reason' => 'No more items available',
+                        'total_items' => $responseCount + 1,
+                        'api_source' => $this->useFlaskApi ? 'flask' : 'laravel'
             
             // Mark next item as used
             UsedItem::create([

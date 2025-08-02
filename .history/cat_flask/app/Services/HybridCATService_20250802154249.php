@@ -288,7 +288,23 @@ class HybridCATService
             $probability = $itemData['probability'];
             $information = $itemData['fisher_information'];
             $expectedFisherInfo = $itemData['expected_fisher_information'];
-            
+                    
+                    return [
+                        'test_completed' => true,
+                        'theta' => $finalTheta,
+                        'se' => $finalSE,
+                        'final_score' => $finalScore,
+                        'stop_reason' => 'No more items available',
+                        'total_items' => $responseCount + 1,
+                        'api_source' => $this->useFlaskApi ? 'flask' : 'laravel'
+                    ];
+                }
+                
+                $probability = $this->originalCatService->probability($newTheta, $nextItem->a, $nextItem->b, $nextItem->g, $nextItem->u);
+                $information = $this->originalCatService->itemInformation($newTheta, $nextItem->a, $nextItem->b, $nextItem->g, $nextItem->u);
+                $expectedFisherInfo = $this->originalCatService->expectedFisherInformation($nextItem->a, $nextItem->b, $nextItem->g, $sessionId, $nextItem->u);
+            }
+
             // Mark next item as used
             UsedItem::create([
                 'session_id' => $sessionId,
@@ -308,7 +324,7 @@ class HybridCATService
                 'probability' => $probability,
                 'information' => $information,
                 'expected_fisher_information' => $expectedFisherInfo,
-                'api_source' => 'flask'
+                'api_source' => $this->useFlaskApi ? 'flask' : 'laravel'
             ];
             
         } catch (Exception $e) {
@@ -319,7 +335,7 @@ class HybridCATService
                 'session_id' => $sessionId,
                 'item_id' => $itemId,
                 'answer' => $answer,
-                'api_source' => 'flask'
+                'api_source' => $this->useFlaskApi ? 'flask' : 'laravel'
             ]);
             throw $e;
         }
@@ -331,29 +347,16 @@ class HybridCATService
     public function getSessionHistory(string $sessionId): array
     {
         $this->performanceMonitor->logCustomProcess('get_session_history');
-        
-        $session = TestSession::where('session_id', $sessionId)
-            ->with(['responses.item', 'usedItems.item'])
-            ->first();
-            
-        if (!$session) {
-            throw new Exception('Session not found');
-        }
-        
-        return [
-            'session' => $session,
-            'responses' => $session->responses,
-            'used_items' => $session->usedItems,
-            'api_source' => 'flask'
-        ];
+        // History tidak memerlukan Flask API, langsung dari database
+        return $this->originalCatService->getSessionHistory($sessionId);
     }
 
     /**
-     * Helper method untuk menghitung probability
+     * Helper method untuk menghitung probability (fallback jika Flask API tidak tersedia)
      */
     private function calculateProbability(float $theta, ItemParameter $item): float
     {
-        // Implementasi 3PL untuk backup/debugging
+        // Implementasi 3PL sederhana untuk backup
         $g = $item->g;
         $u = $item->u ?? 1.0;
         $a = $item->a;
@@ -363,7 +366,7 @@ class HybridCATService
     }
 
     /**
-     * Helper method untuk menghitung information
+     * Helper method untuk menghitung information (fallback jika Flask API tidak tersedia)
      */
     private function calculateInformation(float $theta, ItemParameter $item): float
     {
@@ -388,7 +391,19 @@ class HybridCATService
      */
     public function getApiSource(): string
     {
-        return 'flask';
+        return $this->useFlaskApi ? 'flask' : 'laravel';
+    }
+
+    /**
+     * Force switch to Flask API (untuk testing)
+     */
+    public function forceFlaskApi(bool $force = true): void
+    {
+        if ($force && $this->flaskApi->testConnection()) {
+            $this->useFlaskApi = true;
+        } else {
+            $this->useFlaskApi = false;
+        }
     }
 
     /**

@@ -943,6 +943,11 @@ currentSession = {
    ├── Error handling and validation
    └── Request/response formatting
 
+🔹 FALLBACK SERVICE - cat_flask/app/Services/CATService.php
+   ├── PHP implementation of IRT calculations
+   ├── Used when Flask API unavailable
+   └── Backup calculation engine
+
 🔹 MONITORING - cat_flask/app/Services/PerformanceMonitorService.php
    ├── Performance tracking and logging
    ├── Memory and CPU monitoring
@@ -1044,7 +1049,8 @@ HybridCATController
 └── → PerformanceMonitorService (monitoring)
 
 HybridCATService  
-├── → FlaskApiService (MANDATORY calculations)
+├── → FlaskApiService (preferred calculations)
+├── → CATService (fallback calculations)
 ├── → PerformanceMonitorService (logging)
 └── → Models (database operations)
 
@@ -1259,12 +1265,10 @@ php artisan cat:test-flask-api              # Test Flask endpoints
 ```javascript
 // Problem: 502 Bad Gateway atau connection refused
 // Check: Is Flask API running on port 5000?
-// Solution: MUST start Flask API dengan python cat_api.py
+// Solution: Start Flask API dengan python cat_api.py
 
 // Check in browser: http://localhost:5000/health
 // Should return: {"status": "healthy", "version": "1.0.0"}
-
-// CRITICAL: System will NOT work without Flask API
 ```
 
 ### **🔹 CSRF Token Issues** 

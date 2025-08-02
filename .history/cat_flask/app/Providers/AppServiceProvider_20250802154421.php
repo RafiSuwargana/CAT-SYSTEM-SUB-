@@ -28,6 +28,7 @@ class AppServiceProvider extends ServiceProvider
         $this->app->singleton(HybridCATService::class, function ($app) {
             return new HybridCATService(
                 $app->make(FlaskApiService::class),
+                $app->make(CATService::class),
                 $app->make(PerformanceMonitorService::class)
             );
         });

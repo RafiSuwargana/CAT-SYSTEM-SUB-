@@ -282,7 +282,6 @@ class HybridCATService
                     'stop_reason' => 'No more items available',
                     'total_items' => $responseCount + 1,
                     'api_source' => 'flask'
-                ];
             }
             
             $probability = $itemData['probability'];

@@ -124,7 +124,7 @@ POST /api/test-calculation     - Endpoint testing
   - `submitResponse()` - Submit jawaban dan dapatkan item berikutnya
   - `getSessionHistory()` - Riwayat sesi
   - `getFlaskApiHealth()` - Status Flask API
-  - `switchApiSource()` - Manual restart Flask API connection
+  - `switchApiSource()` - Toggle Flask/Laravel calculation
 
 **`cat_flask/app/Http/Controllers/HomeController.php`**
 - **Fungsi:** Homepage controller
@@ -138,10 +138,10 @@ POST /api/test-calculation     - Endpoint testing
 
 **`cat_flask/app/Services/HybridCATService.php`**
 - **Fungsi:** Core service - orchestrates CAT process
-- **Dependencies:** FlaskApiService, PerformanceMonitorService
+- **Dependencies:** FlaskApiService, CATService (fallback), PerformanceMonitorService
 - **Flow:**
-  1. Check Flask API availability (MANDATORY)
-  2. Use Flask for all calculations
+  1. Check Flask API availability
+  2. Use Flask for calculations (preferred) or fallback to Laravel
   3. Manage database operations
   4. Handle session lifecycle
 
@@ -157,6 +157,10 @@ POST /api/test-calculation     - Endpoint testing
 **`cat_flask/app/Services/PerformanceMonitorService.php`**
 - **Fungsi:** Performance monitoring dan logging
 - **Features:** Memory usage, CPU load, process timing
+
+**`cat_flask/app/Services/CATService.php`**
+- **Fungsi:** Fallback service jika Flask API tidak tersedia
+- **Features:** Native PHP implementation IRT calculations
 
 #### **D. Models (Database)**
 
@@ -551,7 +555,7 @@ public function startSession(): array
             'probability' => $itemData['probability'],
             'information' => $itemData['information'],
             'item_number' => 1,
-            'api_source' => 'flask'  // Always Flask
+            'api_source' => $this->useFlaskApi ? 'flask' : 'laravel'
         ];
         
     } catch (Exception $e) {
@@ -882,14 +886,15 @@ currentSession = {
     └── Relations: belongsTo(session, itemParameter)
 ```
 
-### **8. Error Handling Flow**
+### **8. Fallback Mechanism Flow**
 ```
 ⚠️ Flask API Unavailable
 ├── HybridCATService detects Flask API down
-├── Log error: "Flask API tidak tersedia - sistem tidak dapat berjalan"
-├── Return error response to frontend
-├── Frontend shows: "ERROR: Flask API Required"
-└── User must wait for Flask API to be restored
+├── Log warning: "Flask API tidak tersedia"
+├── Switch to: CATService (PHP implementation)
+├── Continue test dengan Laravel calculations
+├── Frontend shows: "API: LARAVEL (Fallback)"
+└── All functionality tetap berjalan normal
 ```
 
 ---
@@ -942,6 +947,11 @@ currentSession = {
    ├── Methods: estimateTheta(), selectNextItem(), calculateScore()
    ├── Error handling and validation
    └── Request/response formatting
+
+🔹 FALLBACK SERVICE - cat_flask/app/Services/CATService.php
+   ├── PHP implementation of IRT calculations
+   ├── Used when Flask API unavailable
+   └── Backup calculation engine
 
 🔹 MONITORING - cat_flask/app/Services/PerformanceMonitorService.php
    ├── Performance tracking and logging
@@ -1044,7 +1054,8 @@ HybridCATController
 └── → PerformanceMonitorService (monitoring)
 
 HybridCATService  
-├── → FlaskApiService (MANDATORY calculations)
+├── → FlaskApiService (preferred calculations)
+├── → CATService (fallback calculations)
 ├── → PerformanceMonitorService (logging)
 └── → Models (database operations)
 
@@ -1259,12 +1270,10 @@ php artisan cat:test-flask-api              # Test Flask endpoints
 ```javascript
 // Problem: 502 Bad Gateway atau connection refused
 // Check: Is Flask API running on port 5000?
-// Solution: MUST start Flask API dengan python cat_api.py
+// Solution: Start Flask API dengan python cat_api.py
 
 // Check in browser: http://localhost:5000/health
 // Should return: {"status": "healthy", "version": "1.0.0"}
-
-// CRITICAL: System will NOT work without Flask API
 ```
 
 ### **🔹 CSRF Token Issues** 

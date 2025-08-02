@@ -1259,12 +1259,10 @@ php artisan cat:test-flask-api              # Test Flask endpoints
 ```javascript
 // Problem: 502 Bad Gateway atau connection refused
 // Check: Is Flask API running on port 5000?
-// Solution: MUST start Flask API dengan python cat_api.py
+// Solution: Start Flask API dengan python cat_api.py
 
 // Check in browser: http://localhost:5000/health
 // Should return: {"status": "healthy", "version": "1.0.0"}
-
-// CRITICAL: System will NOT work without Flask API
 ```
 
 ### **🔹 CSRF Token Issues** 
